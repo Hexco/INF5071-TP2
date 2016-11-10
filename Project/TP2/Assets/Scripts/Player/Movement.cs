@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Movement : MonoBehaviour {
-    public static float speed = 2;
+    public static float speed = 1;
     public static int gameOver = 0;
     public Rigidbody player;
     public Vector3 player_movement;
@@ -16,12 +16,7 @@ public class Movement : MonoBehaviour {
     void Update()
     {
 
-        if (gameOver == 1)
-        { 
-            player_movement.Set(0, -15, 0);
-            player.velocity = player_movement;
-        }
-        else
+        if (gameOver != 1)
         {
             var player_rotation = transform.rotation;
 
@@ -34,12 +29,12 @@ public class Movement : MonoBehaviour {
             {
                 if (Input.GetKey("w"))
                 {
-                    player_movement.Set(10 * speed, -5 * speed, player_movement.z);
+                    player_movement.Set(10 * speed, -8 * speed, player_movement.z);
                     transform.rotation = player_rotation * Quaternion.Euler(transform.rotation.x, transform.rotation.y, -0.25f * speed);
                 }
                 else if (Input.GetKey("s"))
                 {
-                    player_movement.Set(10 * speed, 5 * speed, player_movement.z);
+                    player_movement.Set(10 * speed, 8 * speed, player_movement.z);
                     transform.rotation = player_rotation * Quaternion.Euler(transform.rotation.x, transform.rotation.y, 0.25f * speed);
                 }
                 else
@@ -50,12 +45,12 @@ public class Movement : MonoBehaviour {
 
                 if (Input.GetKey("a"))
                 {
-                    player_movement.Set(10 * speed, player_movement.y, 5 * speed);
+                    player_movement.Set(10 * speed, player_movement.y, 8 * speed);
                     transform.rotation = player_rotation * Quaternion.Euler(0.25f * speed, transform.rotation.y, transform.rotation.z);
                 }
                 else if (Input.GetKey("d"))
                 {
-                    player_movement.Set(10 * speed, player_movement.y, -5 * speed);
+                    player_movement.Set(10 * speed, player_movement.y, -8 * speed);
                     transform.rotation = player_rotation * Quaternion.Euler(-0.25f * speed, transform.rotation.y, transform.rotation.z);
                 }
                 else
@@ -64,6 +59,10 @@ public class Movement : MonoBehaviour {
                 }
                 player.velocity = player_movement;
             }
+        }
+        else
+        {
+            player.useGravity = true;
         }
     }
 }

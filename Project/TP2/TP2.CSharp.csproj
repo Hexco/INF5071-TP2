@@ -72,6 +72,9 @@
     <Compile Include="Assets\Scripts\Gameplay\Acceleration.cs" />
     <Compile Include="Assets\Scripts\Gameplay\Decceleration.cs" />
     <Compile Include="Assets\Scripts\Gameplay\EngineOver.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\ObstacleMouvement.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Ring.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Victory.cs" />
     <Compile Include="Assets\Scripts\Menu\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\Player\Movement.cs" />
     <Compile Include="Assets\Scripts\SpinningCube.cs" />
