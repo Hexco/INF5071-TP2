@@ -77,6 +77,7 @@
     <Compile Include="Assets\Scripts\Gameplay\Victory.cs" />
     <Compile Include="Assets\Scripts\Menu\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\Player\Movement.cs" />
+    <Compile Include="Assets\Scripts\Player\SpeedCamera.cs" />
     <Compile Include="Assets\Scripts\SpinningCube.cs" />
   </ItemGroup>
   <ItemGroup>
