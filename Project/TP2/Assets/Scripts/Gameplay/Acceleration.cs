@@ -9,7 +9,7 @@ public class Acceleration : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        Movement.speed += 1;
+        Movement.speed += 2;
 		Destroy (this.gameObject);
     }
 		

@@ -4,11 +4,14 @@ using System.Collections;
 public class Decceleration : MonoBehaviour {
     void OnCollisionEnter(Collision other)
     {
-        Movement.speed = Mathf.Floor(Movement.speed/2);
-        if(Movement.speed < 1)
+        if(this.tag != "Laser")
         {
-            Movement.gameOver = 1;
-            EngineOver.turnOff = 1;
+            Movement.speed = Mathf.Floor(Movement.speed / 3);
+            if (Movement.speed < 1)
+            {
+                Movement.gameOver = 1;
+                EngineOver.turnOff = 1;
+            }
         }
     }
 }
