@@ -10,9 +10,9 @@ public class Ring : MonoBehaviour {
 	IEnumerator OnTriggerEnter(Collider other)
 	{
 		PickUpSound ();
-		MoveForward.speed += 15;
+		Movement.speed += 15;
 		yield return new WaitForSeconds (2.5f);
-		MoveForward.speed -= 15;
+		Movement.speed -= 15;
 
 		//Destroy (this.gameObject);
 	}

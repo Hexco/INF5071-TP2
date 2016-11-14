@@ -6,6 +6,6 @@ public class ArrivingToBoss : MonoBehaviour {
 
 
 	void OnTrigger () {
-		MoveForward.speed = 0;
+		//Movement.speed = 0;   SPEED est nos PV, si on a plus de velocite on dead.
 	}
 }
