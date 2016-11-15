@@ -7,7 +7,6 @@ public class MoveForward : MonoBehaviour {
     //SPEED est encapsuler dans movement!
 	void Update(){
 		transform.position += transform.forward * (Movement.moveForwardSpeed + Movement.temporaryAccelerationSpeed)  * Time.deltaTime;
-
 	}
 
 

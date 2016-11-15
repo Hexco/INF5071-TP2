@@ -2,9 +2,9 @@
 using System.Collections;
 
 public class Movement : MonoBehaviour {
-    public static float planeSpeed = 5;
-	public static float moveForwardSpeed = 10;
-	public static float temporaryAccelerationSpeed = 0;
+    public static float planeSpeed;
+	public static float moveForwardSpeed;
+	public static float temporaryAccelerationSpeed;
     public static int gameOver = 0;
     public int invert = -1;
     private Rigidbody player;
@@ -17,11 +17,19 @@ public class Movement : MonoBehaviour {
         player = GetComponent<Rigidbody>();
     }
 
+    void Awake()
+    {
+        planeSpeed = 5;
+        moveForwardSpeed = 7;
+        temporaryAccelerationSpeed = 0;
+        gameOver = 0;
+    }
+
     void Update()
     {
         if (gameOver != 1)
         {
-			Vector3 direction = new Vector3();
+            Vector3 direction = new Vector3();
 			Vector3 finalDirection = new Vector3();
             float horizontal = Input.GetAxis("Horizontal");
             float vertical = Input.GetAxis("Vertical");
@@ -39,7 +47,8 @@ public class Movement : MonoBehaviour {
         }
         else
         {
-			moveForwardSpeed = 0;
+            player.freezeRotation = false;
+            moveForwardSpeed = 0;
             player.useGravity = true;
         }
     }
