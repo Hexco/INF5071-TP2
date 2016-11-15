@@ -2,7 +2,9 @@
 using System.Collections;
 
 public class Movement : MonoBehaviour {
-    public static float speed = 5;
+    public static float planeSpeed = 5;
+	public static float moveForwardSpeed = 10;
+	public static float temporaryAccelerationSpeed = 0;
     public static int gameOver = 0;
     public int invert = -1;
     private Rigidbody player;
@@ -19,13 +21,15 @@ public class Movement : MonoBehaviour {
     {
         if (gameOver != 1)
         {
+			Vector3 direction = new Vector3();
+			Vector3 finalDirection = new Vector3();
             float horizontal = Input.GetAxis("Horizontal");
             float vertical = Input.GetAxis("Vertical");
-            Vector3 direction = new Vector3(horizontal, invert * vertical, 0);
-            Vector3 finalDirection = new Vector3(horizontal, invert * vertical, 5.0f);
+				direction = new Vector3 (horizontal, invert * vertical, 0);
+				finalDirection = new Vector3 (horizontal, invert * vertical, 5.0f);
 
-            transform.localPosition += direction * speed * Time.deltaTime;
-			camera.transform.position += direction * (speed*0.75f) * Time.deltaTime;
+			transform.localPosition += direction * planeSpeed * Time.deltaTime;
+			camera.transform.position += direction * (planeSpeed*0.75f) * Time.deltaTime;
             if (horizontal != 0 || vertical != 0)
             {
                 Quaternion rotation;
@@ -35,7 +39,12 @@ public class Movement : MonoBehaviour {
         }
         else
         {
+			moveForwardSpeed = 0;
             player.useGravity = true;
         }
     }
+
+	
+		
+		
 }

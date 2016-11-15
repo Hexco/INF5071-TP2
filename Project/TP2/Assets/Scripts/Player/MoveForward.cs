@@ -5,11 +5,10 @@ public class MoveForward : MonoBehaviour {
 	// Update is called once per frame
 
     //SPEED est encapsuler dans movement!
+	void Update(){
+		transform.position += transform.forward * (Movement.moveForwardSpeed + Movement.temporaryAccelerationSpeed)  * Time.deltaTime;
 
-	void Update () {
-        if (Movement.gameOver != 1)
-        {
-            transform.position += transform.forward * Movement.speed * Time.deltaTime;
-        }
-    }
+	}
+
+
 }
