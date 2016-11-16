@@ -2,11 +2,16 @@
 using System.Collections;
 
 public class CameraLock : MonoBehaviour {
+/*
+Cest encore bon ce fichier la?
+*/
+
+
     public GameObject target;
 
 	// Use this for initialization
 	void Start () {
-   
+
     }
 
     // Update is called once per frame
