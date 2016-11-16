@@ -25,8 +25,8 @@ public class Movement : MonoBehaviour {
 			Vector3 finalDirection = new Vector3();
             float horizontal = Input.GetAxis("Horizontal");
             float vertical = Input.GetAxis("Vertical");
-				direction = new Vector3 (horizontal, invert * vertical, 0);
-				finalDirection = new Vector3 (horizontal, invert * vertical, 5.0f);
+			direction = new Vector3 (horizontal, invert * vertical, 0);
+			finalDirection = new Vector3 (horizontal, invert * vertical, 2.0f);
 
 			transform.localPosition += direction * planeSpeed * Time.deltaTime;
 			camera.transform.position += direction * (planeSpeed*0.75f) * Time.deltaTime;
