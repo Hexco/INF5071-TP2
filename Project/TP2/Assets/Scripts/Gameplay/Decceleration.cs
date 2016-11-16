@@ -2,35 +2,33 @@
 using System.Collections;
 
 public class Decceleration : MonoBehaviour {
-    void OnCollisionEnter(Collision other)
+    private float speedLowerLimit = 5;
+
+    IEnumerator OnCollisionEnter(Collision other)
     {
-        if(this.tag != "Laser")
+        if(this.tag != "Laser" && Movement.gameOver == 0)
         {
+			GameObject player = GameObject.Find("Player");
+            player.GetComponent<Rigidbody>().velocity = new Vector3(10,0,0);
 
-			if (true) { // Change pour false pour avoir le comportement davant
-				//test
-				GameObject player = GameObject.Find("Player");
-				Vector3 bounceAway = new Vector3 (player.transform.position.x +2,player.transform.position.y,player.transform.position.z);
+            GameObject camera = GameObject.Find ("Main Camera");
+            camera.GetComponent<Rigidbody>().velocity = new Vector3(6, 0, 0);
 
-				player.transform.position = bounceAway;
-				GameObject camera = GameObject.Find ("Main Camera");
-				Vector3 bounceAwayCamera = new Vector3 (camera.transform.position.x + 1.75f,camera.transform.position.y,camera.transform.position.z);
+            HpBar.hpObject = GameObject.Find("HpBar");
+			HpBar.decreaseHealth ();
+            yield return new WaitForSeconds(0.15f);
+            player.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
+            camera.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
 
-				camera.transform.position = bounceAwayCamera;
-				HpBar.hpObject = GameObject.Find("HpBar");
-				HpBar.decreaseHealth ();
+            if(Movement.planeSpeed > 5)
+            {
+                Movement.planeSpeed = Mathf.Floor(Movement.planeSpeed / 2);
 
-
-			} else {
-
-
-				Movement.planeSpeed = Mathf.Floor (Movement.planeSpeed / 3);
-				if (Movement.planeSpeed < 1) {
-					Movement.gameOver = 1;
-					EngineOver.turnOff = 1;
-				}
-
-			}
+                if (Movement.planeSpeed < speedLowerLimit)
+                {
+                    Movement.planeSpeed = speedLowerLimit;
+                }
+            }
         }
     }
 
