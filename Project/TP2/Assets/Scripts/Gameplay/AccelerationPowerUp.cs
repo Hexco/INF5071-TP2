@@ -9,7 +9,7 @@ public class AccelerationPowerUp : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-		Movement.moveForwardSpeed += 5f;
+		Player.moveForwardSpeed += 5f;
 		Destroy (this.gameObject);
     }
 		

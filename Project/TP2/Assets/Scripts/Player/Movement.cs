@@ -3,9 +3,7 @@ using System.Collections;
 using UnityStandardAssets.CrossPlatformInput;
 
 public class Movement : MonoBehaviour {
-    public static float planeSpeed;
-	public static float moveForwardSpeed;
-	public static float temporaryAccelerationSpeed;
+
     public static int gameOver = 0;
     public int invert = -1;
     private Rigidbody player;
@@ -23,9 +21,9 @@ public class Movement : MonoBehaviour {
 
     void Awake()
     {
-        planeSpeed = 5;
-        moveForwardSpeed = 7;
-        temporaryAccelerationSpeed = 0;
+		Player.planeSpeed = 5;
+		Player.moveForwardSpeed = 7;
+		Player.temporaryAccelerationSpeed = 0;
         gameOver = 0;
     }
 
@@ -48,10 +46,10 @@ public class Movement : MonoBehaviour {
             }
 
             direction = new Vector3 (horizontal, invert * vertical, 0);
-			finalDirection = new Vector3 (horizontal, invert * vertical, 5.0f);
+			finalDirection = new Vector3 (horizontal, invert * vertical, 3.0f);
 
-			transform.localPosition += direction * planeSpeed * Time.deltaTime;
-			camera.transform.position += direction * (planeSpeed*0.75f) * Time.deltaTime;
+			transform.localPosition += direction * Player.planeSpeed * Time.deltaTime;
+			camera.transform.position += direction * (Player.planeSpeed*0.75f) * Time.deltaTime;
             if (horizontal != 0 || vertical != 0)
             {
                 Quaternion rotation;
@@ -62,7 +60,7 @@ public class Movement : MonoBehaviour {
         else
         {
             player.freezeRotation = false;
-            moveForwardSpeed = 0;
+			Player.moveForwardSpeed = 0;
             player.useGravity = true;
         }
     }

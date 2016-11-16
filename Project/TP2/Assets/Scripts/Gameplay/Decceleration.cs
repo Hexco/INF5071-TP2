@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Decceleration : MonoBehaviour {
     private float speedLowerLimit = 5;
+	public bool up;
 
     IEnumerator OnCollisionEnter(Collision other)
     {
@@ -20,13 +21,13 @@ public class Decceleration : MonoBehaviour {
             player.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
             camera.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
 
-            if(Movement.planeSpeed > 5)
+			if(Player.planeSpeed > 5)
             {
-                Movement.planeSpeed = Mathf.Floor(Movement.planeSpeed / 2);
+				Player.planeSpeed = Mathf.Floor(Player.planeSpeed / 2);
 
-                if (Movement.planeSpeed < speedLowerLimit)
+				if (Player.planeSpeed < speedLowerLimit)
                 {
-                    Movement.planeSpeed = speedLowerLimit;
+					Player.planeSpeed = speedLowerLimit;
                 }
             }
         }
