@@ -71,7 +71,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Gameplay\AccelerationPowerUp.cs" />
     <Compile Include="Assets\Scripts\Gameplay\ArrivingToBoss.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Damage.cs" />
     <Compile Include="Assets\Scripts\Gameplay\Decceleration.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\EnemyHp.cs" />
     <Compile Include="Assets\Scripts\Gameplay\EngineOver.cs" />
     <Compile Include="Assets\Scripts\Gameplay\ObstacleMouvement.cs" />
     <Compile Include="Assets\Scripts\Gameplay\ObstacleMoveBack.cs" />
@@ -84,8 +86,10 @@
     <Compile Include="Assets\Scripts\Gameplay\Victory.cs" />
     <Compile Include="Assets\Scripts\Menu\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\Player\CameraLock.cs" />
+    <Compile Include="Assets\Scripts\Player\ChangeParts.cs" />
     <Compile Include="Assets\Scripts\Player\MoveForward.cs" />
     <Compile Include="Assets\Scripts\Player\Movement.cs" />
+    <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Player\Shoot.cs" />
     <Compile Include="Assets\Scripts\SpinningCube.cs" />
     <Compile Include="Assets\Scripts\UI\GameOverToggleUI.cs" />

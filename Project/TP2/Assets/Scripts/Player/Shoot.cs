@@ -3,10 +3,10 @@ using System.Collections;
 
 public class Shoot : MonoBehaviour {
 
-	public Rigidbody fireOneBullet;
-	public Rigidbody fireTwoBullet;
-	public Rigidbody fireOneUpgrade;
-	public Rigidbody fireTwoUpgrade;
+	public GameObject fireOneBullet;
+	public GameObject fireTwoBullet;
+	public GameObject fireOneUpgrade;
+	public GameObject fireTwoUpgrade;
 	public float velocity = 10.0f;
 	float timer = 0; 
 	bool soundPlayed = false;
@@ -19,17 +19,17 @@ public class Shoot : MonoBehaviour {
 	}
 
 	void Fire1(){
-		if (Input.GetButtonDown ("Fire1")) { 
-			Rigidbody newBullet = Instantiate (fireOneBullet, new Vector3(transform.position.x,transform.position.y,transform.position.z), fireOneBullet.transform.rotation) as Rigidbody;
-			newBullet.AddForce (transform.forward * velocity, ForceMode.VelocityChange);
+		if (Input.GetButtonDown ("Fire1")) {
+            GameObject newBullet = Instantiate (fireOneBullet, new Vector3(transform.position.x,transform.position.y,transform.position.z+10), fireOneBullet.transform.rotation) as GameObject;
+			newBullet.GetComponent<Rigidbody>().AddForce (transform.forward * velocity, ForceMode.VelocityChange);
 		}
 	}
 
 	void Fire2(){
 		if (!Player.fire2Upgrade) {
 			if (Input.GetButtonDown ("Fire2")) {
-				Rigidbody newBullet = Instantiate (fireTwoBullet, new Vector3 (transform.position.x, transform.position.y, transform.position.z), fireOneBullet.transform.rotation) as Rigidbody;
-				newBullet.AddForce (transform.forward * velocity, ForceMode.VelocityChange);
+                GameObject newBullet = Instantiate (fireTwoBullet, new Vector3 (transform.position.x, transform.position.y, transform.position.z), fireOneBullet.transform.rotation) as GameObject;
+				newBullet.GetComponent<Rigidbody>().AddForce (transform.forward * velocity, ForceMode.VelocityChange);
 			}
 		} else {
 			if (Input.GetButton ("Fire2")) {
@@ -48,12 +48,12 @@ public class Shoot : MonoBehaviour {
 			}
 			if (Input.GetButtonUp ("Fire2")) {
 				if (timer > 2.1f) {
-					Rigidbody newBullet = Instantiate (fireTwoUpgrade, new Vector3 (transform.position.x, transform.position.y, transform.position.z), fireOneBullet.transform.rotation) as Rigidbody;
-					newBullet.AddForce (transform.forward * velocity, ForceMode.VelocityChange);
+                    GameObject newBullet = Instantiate (fireTwoUpgrade, new Vector3 (transform.position.x, transform.position.y, transform.position.z), fireOneBullet.transform.rotation) as GameObject;
+					newBullet.GetComponent<Rigidbody>().AddForce (transform.forward * velocity, ForceMode.VelocityChange);
 					PlayChargeSound (false);
 				} else {
-					Rigidbody newBullet = Instantiate (fireTwoBullet, new Vector3 (transform.position.x, transform.position.y, transform.position.z), fireOneBullet.transform.rotation) as Rigidbody;
-					newBullet.AddForce (transform.forward * velocity, ForceMode.VelocityChange);
+                    GameObject newBullet = Instantiate (fireTwoBullet, new Vector3 (transform.position.x, transform.position.y, transform.position.z), fireOneBullet.transform.rotation) as GameObject;
+					newBullet.GetComponent<Rigidbody>().AddForce (transform.forward * velocity, ForceMode.VelocityChange);
 					PlayUpgrade2BoostSound (false);
 
 				}

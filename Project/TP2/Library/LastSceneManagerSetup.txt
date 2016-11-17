@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/omega.unity
+- path: Assets/Stage_four.unity
   isLoaded: 1
   isActive: 1
