@@ -15,7 +15,7 @@ public class HpBar : MonoBehaviour {
 
 	static public void decreaseHealth(){
 
-		currentHP -= 7f;
+		currentHP -= 1f;
 
 		if (currentHP < 0) {
 			Debug.Log ("Caca");
