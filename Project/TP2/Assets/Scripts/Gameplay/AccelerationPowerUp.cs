@@ -9,8 +9,11 @@ public class AccelerationPowerUp : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-		Player.moveForwardSpeed += 5f;
-		Destroy (this.gameObject);
+        if (other.tag == "Player")
+        {
+            Player.moveForwardSpeed += 5f;
+            Destroy(this.gameObject);
+        }
     }
 		
 	void RotatePowerUp(){
