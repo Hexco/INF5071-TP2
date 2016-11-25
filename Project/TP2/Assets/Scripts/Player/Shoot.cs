@@ -12,15 +12,17 @@ public class Shoot : MonoBehaviour {
 	bool soundPlayed = false;
 	bool chargingSoundLoopPlayed = false;
 	static Material upgrade2Color;
+	Vector3 shootLocation;
 
 		void Update () {
+		shootLocation = GameObject.Find ("LaserLocation").transform.position;
 		Fire1 ();
 		Fire2 ();
 	}
 
 	void Fire1(){
 		if (Input.GetButtonDown ("Fire1")) {
-            GameObject newBullet = Instantiate (fireOneBullet, new Vector3(transform.position.x,transform.position.y,transform.position.z+10), fireOneBullet.transform.rotation) as GameObject;
+			GameObject newBullet = Instantiate (fireOneBullet, shootLocation, fireOneBullet.transform.rotation) as GameObject;
 			newBullet.GetComponent<Rigidbody>().AddForce (transform.forward * velocity, ForceMode.VelocityChange);
 		}
 	}
@@ -28,7 +30,7 @@ public class Shoot : MonoBehaviour {
 	void Fire2(){
 		if (!Player.fire2Upgrade) {
 			if (Input.GetButtonDown ("Fire2")) {
-                GameObject newBullet = Instantiate (fireTwoBullet, new Vector3 (transform.position.x, transform.position.y, transform.position.z), fireOneBullet.transform.rotation) as GameObject;
+				GameObject newBullet = Instantiate (fireTwoBullet, shootLocation, fireOneBullet.transform.rotation) as GameObject;
 				newBullet.GetComponent<Rigidbody>().AddForce (transform.forward * velocity, ForceMode.VelocityChange);
 			}
 		} else {
