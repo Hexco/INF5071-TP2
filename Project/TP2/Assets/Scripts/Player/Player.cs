@@ -32,7 +32,10 @@ public class Player : MonoBehaviour {
 		//A modifier, temporaire upgrade pour le moveforward
 		if (jetUpgrade && !jetUpgradeModifierDone) {
 			jetUpgradeModifierDone = true;
-			moveForwardSpeed += 5;
+			//moveForwardSpeed += 5;
+			//Temporaire
+			moveForwardSpeed += 15;
+			print ("done");
 		}
 	}
 }
