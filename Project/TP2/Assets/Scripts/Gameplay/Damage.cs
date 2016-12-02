@@ -2,12 +2,12 @@
 using System.Collections;
 
 public class Damage : MonoBehaviour {
-    
+
     void OnTriggerEnter(Collider other)
     {
-        if(other.tag != "Player" && other.tag == "Destroyable")
+        if (other.tag == "Destroyable" || other.tag == "Boss")
         {
-            if (other.gameObject.GetComponent<EnemyHp>().hp == 0)
+            if (other.gameObject.GetComponent<EnemyHp>().hp == 0 && other.tag == "Destroyable")
             {
                 Destroy(other.gameObject);
             } else
@@ -16,7 +16,7 @@ public class Damage : MonoBehaviour {
             }
         }
 
-        if(other.tag != "Player")
+        if(other.tag != "Player" && other.tag != "Boss_Battle")
         {
             Destroy(this.gameObject);
         }
