@@ -46,14 +46,14 @@ public class Movement : MonoBehaviour {
             }
 
             direction = new Vector3 (horizontal, invert * vertical, 0);
-			finalDirection = new Vector3 (horizontal, invert * vertical, 3.0f);
+			finalDirection = new Vector3 (horizontal, invert * vertical, 3f);
 
 			transform.localPosition += direction * Player.planeSpeed * Time.deltaTime;
 			camera.transform.position += direction * (Player.planeSpeed*0.75f) * Time.deltaTime;
             if (horizontal != 0 || vertical != 0)
             {
                 Quaternion rotation;
-                rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(finalDirection), Mathf.Deg2Rad * 50.0f);
+                rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(finalDirection), Mathf.Deg2Rad * 90.0f);
                 transform.localRotation = new Quaternion(rotation.x, rotation.y, rotation.z, rotation.w);
             }
         }

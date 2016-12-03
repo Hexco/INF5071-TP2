@@ -2,16 +2,22 @@
 using System.Collections;
 
 public class Damage : MonoBehaviour {
-
-    void OnTriggerEnter(Collider other)
+	IEnumerator OnTriggerEnter(Collider other)
+    
     {
         if (other.tag == "Destroyable" || other.tag == "Boss")
         {
             if (other.gameObject.GetComponent<EnemyHp>().hp == 0 && other.tag == "Destroyable")
             {
+				DestroySound ();
                 Destroy(other.gameObject);
             } else
             {
+				HitSound ();
+				Color normalColor = other.GetComponent<Renderer> ().material.color;
+				other.GetComponent<Renderer> ().material.color = Color.red;
+				yield return new WaitForSeconds (0.1f);
+				other.GetComponent<Renderer> ().material.color = normalColor;
                 other.gameObject.GetComponent<EnemyHp>().hp -= 1;
             }
         }
@@ -20,5 +26,19 @@ public class Damage : MonoBehaviour {
         {
             Destroy(this.gameObject);
         }
+
     }
+
+
+	void HitSound(){
+		AudioSource sound = GameObject.Find ("HitSound").GetComponent<AudioSource> ();
+		sound.Play ();
+	}
+
+	void DestroySound(){
+		AudioSource sound = GameObject.Find ("SpikeExplosion").GetComponent<AudioSource> ();
+		sound.Play ();
+	}
+
+
 }

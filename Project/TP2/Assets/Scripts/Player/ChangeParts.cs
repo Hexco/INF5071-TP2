@@ -26,6 +26,7 @@ public class ChangeParts : MonoBehaviour {
 		changeMeshMaterial (upgrade2Part2, part3);
 		changeMeshMaterial (bodyUpgrade, body);
 
+		changePositionRotation (upgrade1Part1, part1);
 		changePositionRotation (upgrade1Part2,part4);
 		changePositionRotation (upgrade2Part2,part3);
 
