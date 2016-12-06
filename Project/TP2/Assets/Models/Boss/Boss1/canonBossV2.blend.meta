@@ -1,17 +1,42 @@
 fileFormatVersion: 2
-guid: 910c7434682eafe45a7e9bf106ff7622
-timeCreated: 1478974291
+guid: cfec2a9fc956e8440a50422eef2ece23
+timeCreated: 1480980610
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: default
-    100002: //RootNode
-    400000: default
-    400002: //RootNode
-    2300000: default
-    3300000: default
-    4300000: default
+    100000: Armature
+    100002: Canon
+    100004: //RootNode
+    100006: CanonShoot
+    100008: Shoot
+    400000: Armature
+    400002: Canon
+    400004: //RootNode
+    400006: CanonShoot
+    400008: Shoot
+    2300000: Canon
+    3300000: Canon
+    4300000: Shoot
+    4300002: Canon
+    7400000: Default Take
+    7400002: Action
+    7400004: BotLeft
+    7400006: BotLeftIdle
+    7400008: BotLeftToMiddle
+    7400010: BotRight
+    7400012: BotRightIdle
+    7400014: BotRightToMid
+    7400016: Idle
+    7400018: LeftIdle
+    7400020: TopLeft
+    7400022: TopLefttoMidlle
+    7400024: TopRight
+    7400026: TopRightIdle
+    7400028: TopRightToMiddle
+    7400030: X_Fire
+    9500000: //RootNode
+    13700000: Shoot
   materials:
     importMaterials: 1
     materialName: 0
@@ -70,7 +95,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
