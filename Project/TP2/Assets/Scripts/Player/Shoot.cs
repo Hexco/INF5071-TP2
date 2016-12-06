@@ -15,7 +15,7 @@ public class Shoot : MonoBehaviour {
 	Vector3 shootLocation;
 
 		void Update () {
-		shootLocation = GameObject.Find ("LaserLocation").transform.position;
+		//shootLocation = GameObject.Find ("LaserLocation").transform.position;
 		Fire1 ();
 		Fire2 ();
 	}
