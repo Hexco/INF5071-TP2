@@ -6,6 +6,8 @@ public class DamageOnPlayer : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 		if (other.gameObject.tag == "Player") {
 			StartCoroutine ("FlashRed");
+		} else {
+			Destroy (this.gameObject);
 		}
 	}
 
