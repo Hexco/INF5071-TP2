@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Canon : MonoBehaviour {
-	public GameObject fireOneBullet;
+	public GameObject bullet;
 	public float velocity;
 	public GameObject shootLocation;
 	public float rateInSecond;
@@ -14,7 +14,7 @@ public class Canon : MonoBehaviour {
 	}
 
 	void Shoot(){
-		GameObject newBullet = Instantiate (fireOneBullet, shootLocation.transform.position, fireOneBullet.transform.rotation) as GameObject;
+		GameObject newBullet = Instantiate (bullet, shootLocation.transform.position, shootLocation.transform.rotation) as GameObject;
 		newBullet.GetComponent<Rigidbody>().AddForce (shootLocation.transform.forward * velocity, ForceMode.VelocityChange);
 	}
 }
