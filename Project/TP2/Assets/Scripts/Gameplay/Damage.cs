@@ -18,6 +18,8 @@ public class Damage : MonoBehaviour {
                 {
                     HitSound();
                     Color normalColor;
+                    MeshRenderer BossColor;
+
                     if (other.tag == "Destroyable")
                     {
                         normalColor = other.GetComponent<Renderer>().material.color;
@@ -27,15 +29,6 @@ public class Damage : MonoBehaviour {
                         {
                             other.GetComponent<Renderer>().material.color = normalColor;
                         }
-                    } else
-                    {
-                        normalColor = other.GetComponentInParent<MeshRenderer>().material.color;
-                        other.GetComponentInParent<MeshRenderer>().material.color = Color.red;
-                        yield return new WaitForSeconds(0.1f);
-                        if (other)
-                        {
-                            other.GetComponentInParent<MeshRenderer>().material.color = normalColor;
-                        }
                     }
                 }
             }
@@ -43,7 +36,7 @@ public class Damage : MonoBehaviour {
 
         if (other)
         {
-            if(other.tag != "Player" && other.tag != "Boss_Battle")
+            if(other.tag != "Player" && other.tag != "Boss")
             {
                 Destroy(this.gameObject);
             }
