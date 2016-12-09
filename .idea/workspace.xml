@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6a1c665-2764-4dbd-99bf-b99f86a40338" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Assets/3Skyboxes/Materials/New Material.mat" afterPath="$PROJECT_DIR$/Project/TP2/Assets/3Skyboxes/Materials/New Material.mat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Assets/Stage_three.unity" afterPath="$PROJECT_DIR$/Project/TP2/Assets/Stage_three.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/CurrentLayout.dwlt" afterPath="$PROJECT_DIR$/Project/TP2/Library/CurrentLayout.dwlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Project/TP2/Library/assetDatabase3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/expandedItems" afterPath="$PROJECT_DIR$/Project/TP2/Library/expandedItems" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/LastSceneManagerSetup.txt" afterPath="$PROJECT_DIR$/Project/TP2/Library/LastSceneManagerSetup.txt" />
     </list>
     <ignored path="INF5071-TP2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -143,6 +137,326 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/.vs/TP2/v14/.suo</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/CheatScript.cs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Models/Materials/mur.mat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Prefab/Obstacle/spin.prefab</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Prefab/Scene/Stage_Four/Boss_4.cs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Prefab/Scene/Stage_Four/Boss_Four_laser.mat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Prefab/Scene/Stage_Four/Materials/Material.mat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Prefab/Scene/Stage_Four/Materials/shield.mat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Prefab/Scene/Stage_Four/Shield_Gen.prefab</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Prefab/Scene/Stage_Four/Shield_LOW.prefab</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Prefab/Scene/Stage_Four/boss_laser.prefab</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Prefab/Scene/Tutorial/Walls.prefab</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Prefab/UI.prefab</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Scripts/Gameplay/ArrivingToBoss.cs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Scripts/Gameplay/Damage.cs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Scripts/Obstacle/DamageOnPlayer.cs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Scripts/Player/ChangeParts.cs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Scripts/UI/HpBar.cs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Stage_One.unity</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Stage_four.unity</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/CurrentLayout.dwlt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/EditorUserBuildSettings.asset</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ScriptAssemblies/Assembly-CSharp.dll</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/assetDatabase3</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/expandedItems</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000004000000000000000</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000006100000000000000</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/00/0000000000000000b000000000000000</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/2e/2ea7aa130e4632341952bdb089e9a551</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/33/337e91c12b5a0254d970884ec7934c55.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/37/370696b2a201cc541a303edaf4f4d5e8</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/41/410428b08f6df814eb21bb186be64eb2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/4c/4c1a4048c8365494fb0cec80584d83cc.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/60/607654e9d30963b45a7c7b1707fbf12c</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/6e/6e6a29b7881bc1244a174179e222e7fc.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/6f/6f6f7245280406f4f9710e4fb42cee76.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/70/705cd98b6d19a284aabe34110812b398</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/7c/7c6c32ccb1916494eb5ec89ab61ee587</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/93/933e8c341172dff47b86a893d3454c39.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/9f/9fa0e4dab1c74b9408833ef65c7c8bf6.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/a4/a4831643930c465499ffab540a5c3da8.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/b9/b91bab4858e9207498f5be0982387d4e.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/d6/d6441eac4d98f5c4bbc0d90238bd6fb7</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/d6/d6eb0fdaee8ad7d4facae3b87876f550.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/e6/e6252c764aceea84697b2123601d4aff.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/e7/e7e370acbf57f7d47acc2f1cf5da8bc0.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/shadercompiler-UnityShaderCompiler.exe0.log</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/ProjectSettings/EditorBuildSettings.asset</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/TP2.CSharp.csproj</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/TP2.sln</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/obj/Debug/Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/obj/Debug/Assembly-CSharp-Editor.dll</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/obj/Debug/Assembly-CSharp-Editor.pdb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/obj/Debug/Assembly-CSharp.dll</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/obj/Debug/Assembly-CSharp.pdb</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Models/Obstacle/4missile.blend</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Models/Obstacle/4missile.blend.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Models/Obstacle/4missile.blend1</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Models/Player/Airship/BodyUpgrae.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Models/Player/Airship/BodyUpgrae/AirshipBodyUpgrade.blend</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Models/Player/Airship/BodyUpgrae/AirshipBodyUpgrade.blend.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Models/Player/Airship/BodyUpgrae/AirshipBodyUpgrade.blend1</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Models/Player/Airship/BodyUpgrae/AirshipBodyUpgrade.blend1.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Models/Player/Airship/BodyUpgrae/AirshipUpgrade.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Models/Player/Airship/BodyUpgrae/AirshipUpgrade.png.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Models/Player/Airship/BodyUpgrae/Materials.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Models/Player/Airship/BodyUpgrae/Materials/AirshipUpgrade.mat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Models/Player/Airship/BodyUpgrae/Materials/AirshipUpgrade.mat.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/New Terrain 1.asset</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/New Terrain 1.asset.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/New Terrain 2.asset</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/New Terrain 2.asset.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Prefab/GameOver.prefab</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Prefab/GameOver.prefab.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Prefab/Scene/StageOne.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Prefab/Scene/Stage_Four/huge_boss_laser.prefab</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Prefab/Scene/Stage_Four/huge_boss_laser.prefab.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Prefab/Scene/Tutorial/Basic_tuto.mat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Prefab/Scene/Tutorial/Basic_tuto.mat.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Scripts/UI/ChangeImageUpgrade.cs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Scripts/UI/ChangeImageUpgrade.cs.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Sound/04-decide-in-the-eyes.mp3</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Sound/04-decide-in-the-eyes.mp3.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/UI.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/UI/Armor.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/UI/Armor.png.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/UI/Left.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/UI/Left.png.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/UI/Right.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/UI/Right.png.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/UI/hp.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/UI/hp.png.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/0/00b23efb708a2c3f6c3b23723a22dcd6.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/0/020f06e6457efd3f2c1cb8b65b652f92.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/0/073000676e2194f3be1178f59905f2a4.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/0/0b0d75d167f629db8ce78f7ada353c99.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/1/13cf055816e2455d18e92467d637cffe.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/1/14075e18c906f8a7f8007700ad49b7e5.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/1/14867312010a131b00b71ea4cf520026.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/1/1a4e0dfbd26a25fcdc89aa650ad3ca5b.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/1/1b5218a51971565831bd18770197352f.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/1/1c05bad83301b96d77f9e9eb8635ed56.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/1/1ed5cd233223b15c0877edb52198f21f.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/2/218e5374b391f2634e1375fffbf08356.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/2/229fc4ffb2ac784abba51b4139f43b61.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/2/249397859eb88cbc21e5c0b4939d2b28.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/2/2d880cc553ec8dc795d253f420b44db8.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/3/303aa649c30b709841e7f265bb9c6ab0.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/3/35a2acd31ef3174eec329f8ead155972.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/3/36d4d01bbaadb2371ee0f11c3deb6f9d.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/3/3be88738eef31ac362443b37ee90c973.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/3/3e007a5714dbf79e00a5bf35d90d3778.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/4/41706fa42fdab619c9093da70e7dc39c.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/4/4d0c1245fd75c88b3823e6d92e90e29e.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/5/5454abd9f67ed2de437a04e1a72871e3.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/5/55c794a46e73d35c327dd24b1783b4cd.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/5/57ab95695a76a6726a3828a8ae400c9e.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/5/5b1d5bb969798b909e389a1fe51052a5.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/6/640d5a3c8e4defb2c5df9bbbb485c019.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/6/6f98ed49b31011f8e55c8c470f2dee02.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/7/7280b304e1127d93a992515cd5d15ece.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/7/74e9e9951efb99f7a8f962246c06b633.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/7/7a0ba82cfe4d7c87606a05c3b434033c.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/8/820d308fde233ca1369cc5ed3b152763.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/8/85c89435ccd6ed4473b7941a0ab52d45.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/8/87885a1913c22d8714654da6ba825630.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/9/932424268f27ad9f051145258cf2bba3.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/9/93dff98d09fcc7746f3209da9394bc69.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/9/95fe8a97f4ebb201baf31215abaf7c11.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/9/97ad98138bbd657ed1e2bd7e97718973.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/9/994eab69fa3881be93aa41475d4b2b20.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/a/a0a5c26bad6df61672befafd122ad125.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/a/a624500a642b6f28a5fe66f5aaca1d74.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/a/a91007f27eeb324891e7d20a836ea705.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/a/af0af6ec8bc01dad46b3346c8592eaf0.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/b/b3e6225fbe1add34798071736481fc7c.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/b/b95add97b1b08389bdb264967e0dd526.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/b/bb21387bebac2ea258d450adbc761daa.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/b/bdebfe7d2bdb726a21da59bd4272c4ca.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/c/c24fa72fa1c67aa580785913e4e36ba1.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/c/c4f8c060723a2467bd22efe2b9d967b4.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/c/c8026f65511961a02fa09454d211ee58.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/c/cc3b1c8165b7d5917abee260a0e41b8b.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/c/ce8ac9a8c8309854755719f22abd390c.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/d/d9108972a14b1753b017974f62485c3d.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/d/d9e551d1bd0333f7f08dfe22fa04d99a.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/d/da7f36edee3af299910fb7eccae5a6ca.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/d/db375b73c914aed88d443939d101c62a.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/d/df629ed1307c58e6fa272ed0ee8dd85c.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/e/e40f6670aae8c0cf731a67da2ab972eb.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/e/e79f9adb705c6167676b5e9e93e7ac98.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/e/e8357760119c64311dbf7d2b6f0cdb97.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/e/e8f632626b63696e2c932cf1ecbf9ab1.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/e/edbf61c0fc2e78e6a2eb2de2b6d2f09f.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/f/f45db88658b1445516cf63325a9d6d4f.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/f/f624274c911d15be2565cb783e308492.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/ShaderCache/f/f7169b6844788fbed34298e9aebf52d6.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/0f/0f3e0929bbf26924180179ac320f5919</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/0f/0f3e0929bbf26924180179ac320f5919.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/12/1273698c6e40e9f449b749305d5ec1c2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/12/1273698c6e40e9f449b749305d5ec1c2.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/13/132bb63d70ece8d49b0f89ea0901482a</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/13/132bb63d70ece8d49b0f89ea0901482a.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/20/2009de121daf39b4f8a9f6d52582b3f6</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/20/2009de121daf39b4f8a9f6d52582b3f6.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/39/399eba411ba556f42b99ce2d52b39263</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/39/399eba411ba556f42b99ce2d52b39263.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/39/39ca47c037f31c44aaa2afedeace6849</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/39/39ca47c037f31c44aaa2afedeace6849.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/39/39d33c720f2c86e4e885d3b0c51f7f62</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/39/39d33c720f2c86e4e885d3b0c51f7f62.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/4a/4a080465ff7853d479c51898f411d2dd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/4a/4a080465ff7853d479c51898f411d2dd.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/55/55cc05ba9ae3c9946a44bc726b634eca</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/55/55cc05ba9ae3c9946a44bc726b634eca.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/5d/5d3468dd1764a424f988aace1d0763da</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/5d/5d3468dd1764a424f988aace1d0763da.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/61/61a89736ea8d75d438dce071e4769358</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/61/61a89736ea8d75d438dce071e4769358.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/6b/6ba77963921caea42a779f4abc1c1cf2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/6b/6ba77963921caea42a779f4abc1c1cf2.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/6d/6db234f655de3884798e8799ef4d2b38</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/6d/6db234f655de3884798e8799ef4d2b38.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/6e/6edfad9ebc5dfc645af7c27eb4849130</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/6e/6edfad9ebc5dfc645af7c27eb4849130.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/79/7995044c580bb754c84d51db28a2c06e</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/79/7995044c580bb754c84d51db28a2c06e.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/80/800272cf025a2c14c8b5a2ec15f41d2c</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/80/800272cf025a2c14c8b5a2ec15f41d2c.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/82/82692593e1bdec649901899c2760c545</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/82/82692593e1bdec649901899c2760c545.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/9e/9e1bf7bbb9fe10340a4af1dd931533e6</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/9e/9e1bf7bbb9fe10340a4af1dd931533e6.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/b9/b9a4cd9c36e22c04a87641d7e02d10a5</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/b9/b9a4cd9c36e22c04a87641d7e02d10a5.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/b9/b9a4cd9c36e22c04a87641d7e02d10a5.resource</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/cf/cf04fe29e4a35fc4c9bf4387093fbc7b</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/cf/cf04fe29e4a35fc4c9bf4387093fbc7b.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/f1/f1602261f10b6174486143b88807b6b1</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/f1/f1602261f10b6174486143b88807b6b1.info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/fb/fb63a40a3a333ef4c914e6079aab96aa</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/fb/fb63a40a3a333ef4c914e6079aab96aa.info</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Prefab/Scene/Stage_Four/Boss_4_dmg.cs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Assets/Prefab/Scene/Stage_Four/Boss_4_dmg.cs.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/36/36835ae2601bfac4eabb20a533ba3ee7</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/TP2/Library/metadata/36/36835ae2601bfac4eabb20a533ba3ee7.info</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -555,7 +869,7 @@
       <updated>1479318408138</updated>
       <workItem from="1479318411110" duration="165000" />
       <workItem from="1480787158713" duration="6000" />
-      <workItem from="1481304822555" duration="946000" />
+      <workItem from="1481304822555" duration="1026000" />
     </task>
     <task id="LOCAL-00001" summary="Scène 3">
       <created>1481322924146</created>
@@ -564,11 +878,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481322924146</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Scène 3">
+      <created>1481323018557</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1481323018557</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1117000" />
+    <option name="totallyTimeSpent" value="1197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -580,11 +901,11 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
