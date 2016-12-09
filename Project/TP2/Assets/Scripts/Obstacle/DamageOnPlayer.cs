@@ -5,8 +5,12 @@ public class DamageOnPlayer : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other){
 		if (other.gameObject.tag == "Player") {
-			StartCoroutine ("FlashRed");
-		} else {
+            HpBar.hpObject = GameObject.Find("HpBar");
+            HpBar.decreaseHealth();
+            StartCoroutine ("FlashRed");
+            Destroy(this.gameObject);
+        }
+        else if(other.gameObject.tag != "ShieldPower" && other.gameObject.tag != "Boss") {
 			Destroy (this.gameObject);
 		}
 	}
@@ -15,8 +19,6 @@ public class DamageOnPlayer : MonoBehaviour {
 		GameObject player = GameObject.Find ("Airship");
 		HitSound ();
 		Color normalColor = player.GetComponent<Renderer> ().material.color;
-		HpBar.hpObject = GameObject.Find ("HpBar");
-		HpBar.decreaseHealth ();
 		this.GetComponent<Renderer>().enabled = false;
 		for (int i = 0; i < 5; i++) {
 			player.GetComponent<Renderer> ().material.color = Color.red;
@@ -25,7 +27,6 @@ public class DamageOnPlayer : MonoBehaviour {
 			yield return new WaitForSeconds (0.1f);
 
 		}
-		Destroy (this.gameObject);
 	}
 
 	void HitSound(){

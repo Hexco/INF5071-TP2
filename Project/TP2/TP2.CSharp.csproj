@@ -73,7 +73,6 @@
     <Compile Include="Assets\CheatScript.cs" />
     <Compile Include="Assets\Hit.cs" />
     <Compile Include="Assets\Prefab\Scene\Stage_Four\Boss_4.cs" />
-    <Compile Include="Assets\Prefab\Scene\Stage_Four\Boss_4_dmg.cs" />
     <Compile Include="Assets\Scripts\Gameplay\AccelerationPowerUp.cs" />
     <Compile Include="Assets\Scripts\Gameplay\ArrivingToBoss.cs" />
     <Compile Include="Assets\Scripts\Gameplay\CollisionWall.cs" />
