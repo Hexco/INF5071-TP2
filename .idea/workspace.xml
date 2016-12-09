@@ -2,85 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6a1c665-2764-4dbd-99bf-b99f86a40338" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/TP2/Assets/3Skyboxes/Materials/New Material.mat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/TP2/Assets/3Skyboxes/Skybox_3/orbital-element_bk.tga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/TP2/Assets/3Skyboxes/Skybox_3/orbital-element_dn.tga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/TP2/Assets/3Skyboxes/Skybox_3/orbital-element_ft.tga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/TP2/Assets/3Skyboxes/Skybox_3/orbital-element_lf.tga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/TP2/Assets/3Skyboxes/Skybox_3/orbital-element_rt.tga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/TP2/Assets/3Skyboxes/Skybox_3/orbital-element_up.tga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/TP2/Assets/Stage_three.unity" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/TP2/Assets/3Skyboxes/Materials/New Material.mat.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/TP2/Assets/3Skyboxes/Skybox_3.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/TP2/Assets/3Skyboxes/Skybox_3/orbital-element_bk.tga.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/TP2/Assets/3Skyboxes/Skybox_3/orbital-element_dn.tga.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/TP2/Assets/3Skyboxes/Skybox_3/orbital-element_ft.tga.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/TP2/Assets/3Skyboxes/Skybox_3/orbital-element_lf.tga.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/TP2/Assets/3Skyboxes/Skybox_3/orbital-element_rt.tga.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/TP2/Assets/3Skyboxes/Skybox_3/orbital-element_up.tga.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/TP2/Assets/Stage_three.unity.meta" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/SyntaxTree.VisualStudio.Unity.Bridge.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/UnityEditor.Android.Extensions.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/UnityEditor.Android.Extensions.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/UnityEditor.Graphs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/UnityEditor.LinuxStandalone.Extensions.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/UnityEditor.LinuxStandalone.Extensions.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/UnityEditor.WindowsStandalone.Extensions.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Assets/Tutorial.unity" afterPath="$PROJECT_DIR$/Project/TP2/Assets/Tutorial.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/InspectorExpandedItems.asset" afterPath="$PROJECT_DIR$/Project/TP2/Library/InspectorExpandedItems.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterPath="$PROJECT_DIR$/Project/TP2/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" afterPath="$PROJECT_DIR$/Project/TP2/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll" afterPath="$PROJECT_DIR$/Project/TP2/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb" afterPath="$PROJECT_DIR$/Project/TP2/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Project/TP2/Library/ScriptAssemblies/Assembly-CSharp.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/Project/TP2/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/SyntaxTree.VisualStudio.Unity.Bridge.dll" afterPath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/SyntaxTree.VisualStudio.Unity.Bridge.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/UnityEditor.Advertisements.dll" afterPath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/UnityEditor.Advertisements.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/UnityEditor.EditorTestsRunner.dll" afterPath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/UnityEditor.EditorTestsRunner.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/UnityEditor.Graphs.dll" afterPath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/UnityEditor.Graphs.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/UnityEditor.Networking.dll" afterPath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/UnityEditor.Networking.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/UnityEditor.TreeEditor.dll" afterPath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/UnityEditor.TreeEditor.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/UnityEditor.UI.dll" afterPath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/UnityEditor.UI.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/UnityEditor.WindowsStandalone.Extensions.dll" afterPath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/UnityEditor.WindowsStandalone.Extensions.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Assets/3Skyboxes/Materials/New Material.mat" afterPath="$PROJECT_DIR$/Project/TP2/Assets/3Skyboxes/Materials/New Material.mat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Assets/Stage_three.unity" afterPath="$PROJECT_DIR$/Project/TP2/Assets/Stage_three.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/CurrentLayout.dwlt" afterPath="$PROJECT_DIR$/Project/TP2/Library/CurrentLayout.dwlt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Project/TP2/Library/assetDatabase3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000002000000000000000" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000002000000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000003000000000000000" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000003000000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000004000000000000000" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000004000000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000004100000000000000" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000004100000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000005000000000000000" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000005000000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000005100000000000000" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000005100000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000006000000000000000" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000006000000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000006100000000000000" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000006100000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000007000000000000000" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000007000000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000007100000000000000" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000007100000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000008000000000000000" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000008000000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000008100000000000000" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000008100000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000009000000000000000" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/00000000000000009000000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/0000000000000000a000000000000000" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/0000000000000000a000000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/0000000000000000a100000000000000" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/0000000000000000a100000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/0000000000000000b000000000000000" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/0000000000000000b000000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/0000000000000000c000000000000000" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/00/0000000000000000c000000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/2a/2a3b65a2ed050ff4c8efa714b4b65329" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/2a/2a3b65a2ed050ff4c8efa714b4b65329" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/2a/2a3b65a2ed050ff4c8efa714b4b65329.info" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/2a/2a3b65a2ed050ff4c8efa714b4b65329.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/38/385d780ebc233a54298aee047284ee8c.info" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/38/385d780ebc233a54298aee047284ee8c.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/3c/3c0ad459c1534645b5d603b7cc258f97" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/3c/3c0ad459c1534645b5d603b7cc258f97" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/7c/7cbab2be89b54486bbd23a6fe637d30e" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/7c/7cbab2be89b54486bbd23a6fe637d30e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/85/852e56802eb941638acbb491814497b0" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/85/852e56802eb941638acbb491814497b0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/99/992deeb1e57e5fe48aef2f4f3ccf2cc4.info" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/99/992deeb1e57e5fe48aef2f4f3ccf2cc4.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/c1/c164cf972933cbe4d909a19d3643481a" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/c1/c164cf972933cbe4d909a19d3643481a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/c1/c164cf972933cbe4d909a19d3643481a.info" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/c1/c164cf972933cbe4d909a19d3643481a.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8" afterPath="$PROJECT_DIR$/Project/TP2/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/expandedItems" afterPath="$PROJECT_DIR$/Project/TP2/Library/expandedItems" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/version.txt" afterPath="$PROJECT_DIR$/Project/TP2/Library/UnityAssemblies/version.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterPath="$PROJECT_DIR$/Project/TP2/Library/shadercompiler-UnityShaderCompiler.exe0.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/TP2.CSharp.Editor.csproj" afterPath="$PROJECT_DIR$/Project/TP2/TP2.CSharp.Editor.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/TP2/Library/LastSceneManagerSetup.txt" afterPath="$PROJECT_DIR$/Project/TP2/Library/LastSceneManagerSetup.txt" />
     </list>
     <ignored path="INF5071-TP2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -627,12 +555,20 @@
       <updated>1479318408138</updated>
       <workItem from="1479318411110" duration="165000" />
       <workItem from="1480787158713" duration="6000" />
-      <workItem from="1481304822555" duration="762000" />
+      <workItem from="1481304822555" duration="946000" />
     </task>
+    <task id="LOCAL-00001" summary="Scène 3">
+      <created>1481322924146</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1481322924146</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="933000" />
+    <option name="totallyTimeSpent" value="1117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -674,6 +610,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Scène 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scène 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
