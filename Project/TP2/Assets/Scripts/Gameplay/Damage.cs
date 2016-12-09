@@ -17,12 +17,25 @@ public class Damage : MonoBehaviour {
                 } else
                 {
                     HitSound();
-                    Color normalColor = other.GetComponent<Renderer>().material.color;
-                    other.GetComponent<Renderer>().material.color = Color.red;
-                    yield return new WaitForSeconds(0.1f);
-                    if (other)
+                    Color normalColor;
+                    if (other.tag == "Destroyable")
                     {
-                        other.GetComponent<Renderer>().material.color = normalColor;
+                        normalColor = other.GetComponent<Renderer>().material.color;
+                        other.GetComponent<Renderer>().material.color = Color.red;
+                        yield return new WaitForSeconds(0.1f);
+                        if (other)
+                        {
+                            other.GetComponent<Renderer>().material.color = normalColor;
+                        }
+                    } else
+                    {
+                        normalColor = other.GetComponentInParent<MeshRenderer>().material.color;
+                        other.GetComponentInParent<MeshRenderer>().material.color = Color.red;
+                        yield return new WaitForSeconds(0.1f);
+                        if (other)
+                        {
+                            other.GetComponentInParent<MeshRenderer>().material.color = normalColor;
+                        }
                     }
                 }
             }
