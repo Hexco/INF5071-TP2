@@ -5,32 +5,39 @@ public class Damage : MonoBehaviour {
 	IEnumerator OnTriggerEnter(Collider other)
     
     {
-        if (other.tag == "Destroyable" || other.tag == "Boss")
+        if (other)
         {
-            if (other.gameObject.GetComponent<EnemyHp>().hp == 0 && other.tag == "Destroyable")
+            if (other.tag == "Destroyable" || other.tag == "Boss")
             {
-				DestroySound ();
-                Destroy(other.gameObject);
-            } else
-            {
-				HitSound ();
-				Color normalColor = other.GetComponent<Renderer> ().material.color;
-				other.GetComponent<Renderer> ().material.color = Color.red;
-				yield return new WaitForSeconds (0.1f);
-				other.GetComponent<Renderer> ().material.color = normalColor;
                 other.gameObject.GetComponent<EnemyHp>().hp -= 1;
+                if (other.gameObject.GetComponent<EnemyHp>().hp <= 0 && other.tag == "Destroyable")
+                {
+				    DestroySound ();
+                    Destroy(other.gameObject);
+                } else
+                {
+                    HitSound();
+                    Color normalColor = other.GetComponent<Renderer>().material.color;
+                    other.GetComponent<Renderer>().material.color = Color.red;
+                    yield return new WaitForSeconds(0.1f);
+                    if (other)
+                    {
+                        other.GetComponent<Renderer>().material.color = normalColor;
+                    }
+                }
             }
         }
 
-        if(other.tag != "Player" && other.tag != "Boss_Battle")
+        if (other)
         {
-            Destroy(this.gameObject);
+            if(other.tag != "Player" && other.tag != "Boss_Battle")
+            {
+                Destroy(this.gameObject);
+            }
         }
-
     }
 
-
-	void HitSound(){
+    void HitSound(){
 		AudioSource sound = GameObject.Find ("HitSound").GetComponent<AudioSource> ();
 		sound.Play ();
 	}

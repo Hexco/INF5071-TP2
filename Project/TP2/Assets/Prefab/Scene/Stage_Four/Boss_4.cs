@@ -29,8 +29,8 @@ public class Boss_4 : MonoBehaviour {
     void Start () {
         hp = this.gameObject.GetComponent<EnemyHp>().hp_init;
         active_shield = Instantiate(shield, shield_location.position, shield.transform.rotation) as GameObject;
-        shield_power_active_00 = Instantiate(shield_power, shield_power_00_location.position, shield_power.transform.rotation) as GameObject;
-        shield_power_active_01 = Instantiate(shield_power, shield_power_01_location.position, shield_power.transform.rotation) as GameObject;
+        shield_power_active_00 = Instantiate(shield_power, shield_power_00_location.position, new Quaternion(90, 90, 0,1)) as GameObject;
+        shield_power_active_01 = Instantiate(shield_power, shield_power_01_location.position, new Quaternion(90, -90, 0,1)) as GameObject;
     }
 
     // Update is called once per frame

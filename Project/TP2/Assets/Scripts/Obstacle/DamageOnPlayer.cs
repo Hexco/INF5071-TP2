@@ -12,7 +12,7 @@ public class DamageOnPlayer : MonoBehaviour {
 	}
 
 	IEnumerator FlashRed(){
-		GameObject player = GameObject.Find ("planeBody");
+		GameObject player = GameObject.Find ("Airship");
 		HitSound ();
 		Color normalColor = player.GetComponent<Renderer> ().material.color;
 		HpBar.hpObject = GameObject.Find ("HpBar");
