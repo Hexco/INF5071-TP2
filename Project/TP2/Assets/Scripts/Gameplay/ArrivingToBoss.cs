@@ -15,6 +15,7 @@ public class ArrivingToBoss : MonoBehaviour {
                 Boss_4.boss_4 = true;
             }
             Player.moveForwardSpeed = 0;
+            Destroy(this.gameObject);
         }
     }
 }
