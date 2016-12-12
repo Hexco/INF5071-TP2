@@ -69,9 +69,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BossDoorOpens.cs" />
+    <Compile Include="Assets\CheatScript.cs" />
     <Compile Include="Assets\Hit.cs" />
     <Compile Include="Assets\Prefab\Scene\Stage_Four\Boss_4.cs" />
-    <Compile Include="Assets\Prefab\Scene\Stage_Four\Boss_4_dmg.cs" />
     <Compile Include="Assets\Scripts\Gameplay\AccelerationPowerUp.cs" />
     <Compile Include="Assets\Scripts\Gameplay\ArrivingToBoss.cs" />
     <Compile Include="Assets\Scripts\Gameplay\CollisionWall.cs" />
@@ -88,8 +89,12 @@
     <Compile Include="Assets\Scripts\Gameplay\ObstacleMoveUp.cs" />
     <Compile Include="Assets\Scripts\Gameplay\Ring.cs" />
     <Compile Include="Assets\Scripts\Gameplay\SpinAround.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\StageOne\Passing.cs" />
     <Compile Include="Assets\Scripts\Gameplay\Victory.cs" />
     <Compile Include="Assets\Scripts\Menu\ChangeScene.cs" />
+    <Compile Include="Assets\Scripts\Obstacle\Canon.cs" />
+    <Compile Include="Assets\Scripts\Obstacle\DamageOnPlayer.cs" />
+    <Compile Include="Assets\Scripts\Player\BarrelRoll.cs" />
     <Compile Include="Assets\Scripts\Player\CameraLock.cs" />
     <Compile Include="Assets\Scripts\Player\ChangeParts.cs" />
     <Compile Include="Assets\Scripts\Player\MoveForward.cs" />
@@ -97,6 +102,7 @@
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Player\Shoot.cs" />
     <Compile Include="Assets\Scripts\Scene\Tutorial\Platform_Manager.cs" />
+    <Compile Include="Assets\Scripts\UI\ChangeImageUpgrade.cs" />
     <Compile Include="Assets\Scripts\UI\GameOverToggleUI.cs" />
     <Compile Include="Assets\Scripts\UI\HpBar.cs" />
   </ItemGroup>

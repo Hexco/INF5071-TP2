@@ -11,9 +11,9 @@ public class CollisionWall : MonoBehaviour {
 
 	void playerForceModifier(){
 		if (Player.bodyUpgrade) {
-			playerForce = 21;
+			playerForce = Player.planeSpeed + 11;
 		} else {
-			playerForce = 16;
+			playerForce = Player.planeSpeed + 11;
 		}
 	}
 

@@ -18,7 +18,7 @@ public class ChangeParts : MonoBehaviour {
 		GameObject part4 = GameObject.Find ("part4Mesh");	
 		GameObject part2 = GameObject.Find ("part2Mesh");	
 		GameObject part3 = GameObject.Find ("part3Mesh");	
-		GameObject body = GameObject.Find ("planeBody");	
+		GameObject body = GameObject.Find ("Airship");	
 
 		changeMeshMaterial (upgrade1Part1, part1);
 		changeMeshMaterial (upgrade1Part2, part4);
