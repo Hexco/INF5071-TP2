@@ -15,6 +15,13 @@ public class Player : MonoBehaviour {
 	public static bool bodyUpgradeModifierDone = false;
 	public static bool jetUpgradeModifierDone = false;
 
+	public static Color normalColor;
+
+
+
+	void Start(){
+		normalColor = GameObject.Find ("Airship").GetComponent<Renderer> ().material.color;
+	}
 
 	void Update(){
 		BodyUpgradeModifier ();
@@ -35,7 +42,6 @@ public class Player : MonoBehaviour {
 			//moveForwardSpeed += 5;
 			//Temporaire
 			moveForwardSpeed += 15;
-			print ("done");
 		}
 	}
 }

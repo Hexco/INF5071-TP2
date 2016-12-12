@@ -32,27 +32,22 @@ public class CollisionWall : MonoBehaviour {
 				if (leftWall) {
 					player.GetComponent<Rigidbody> ().velocity = new Vector3 (playerForce, 0, 0);
 					camera.GetComponent<Rigidbody> ().velocity = new Vector3 ((cameraForce * playerForce) - 1, 0, 0);
-					print ("LeftWall");
 				}
 				if (rightWall) {
 					player.GetComponent<Rigidbody> ().velocity = new Vector3 (invert * playerForce, 0, 0);
 					camera.GetComponent<Rigidbody> ().velocity = new Vector3 (invert * (cameraForce * playerForce - 1), 0, 0);
-					print ("rightwall");
 				}
 				if (TopWall) {
 					player.GetComponent<Rigidbody> ().velocity = new Vector3 (0, invert * (playerForce), 0);
 					camera.GetComponent<Rigidbody> ().velocity = new Vector3 (0, invert * ((cameraForce * playerForce) - 1), 0);
-					print ("topwall");
 				}
 				if (BotWall) {
 					player.GetComponent<Rigidbody> ().velocity = new Vector3 (0, playerForce, 0);
 					camera.GetComponent<Rigidbody> ().velocity = new Vector3 (0, (cameraForce * playerForce) - 1, 0);
-					print ("botwall");
 				}
 				if (FrontWall) {
-					player.GetComponent<Rigidbody> ().velocity = new Vector3 (0, 0, invert * (playerForce + 25));
-					camera.GetComponent<Rigidbody> ().velocity = new Vector3 (0, 0, invert * ((cameraForce * playerForce) + 27));
-					print ("frontwall");
+					player.GetComponent<Rigidbody> ().velocity = new Vector3 (0, 0, invert * (playerForce + 30));
+					camera.GetComponent<Rigidbody> ().velocity = new Vector3 (0, 0, invert * ((cameraForce * playerForce) + 32));
 				}
 				HpBar.hpObject = GameObject.Find ("HpBar");
 				HpBar.decreaseHealth ();

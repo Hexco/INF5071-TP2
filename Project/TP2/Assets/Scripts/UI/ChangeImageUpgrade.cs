@@ -7,6 +7,10 @@ public class ChangeImageUpgrade : MonoBehaviour {
 	public static Image leftImage;
 	public static Image rightImage;
 	public static Image armorImage;
+	static Sprite leftSpriteOriginal;
+	static Sprite rightSpriteOriginal;
+	static Sprite armorSpriteOriginal;
+
 
 
 	void Start () {
@@ -17,6 +21,9 @@ public class ChangeImageUpgrade : MonoBehaviour {
 		leftImage = left.GetComponent<Image> ();
 		rightImage = right.GetComponent<Image> ();
 		armorImage = armor.GetComponent<Image> ();
+		leftSpriteOriginal = leftImage.sprite;
+		rightSpriteOriginal = rightImage.sprite;
+		armorSpriteOriginal = armorImage.sprite;
 
 	}
 	
@@ -29,22 +36,28 @@ public class ChangeImageUpgrade : MonoBehaviour {
 
 	void checkUpgrade1(){
 		if (Player.fire1Upgrade) {
-			Sprite spr = GameObject.Find ("Upgrade1Image").GetComponent<Image>().sprite;
+			Sprite spr = GameObject.Find ("Upgrade1Image").GetComponent<Image> ().sprite;
 			leftImage.sprite = spr;
+		} else {
+			leftImage.sprite = leftSpriteOriginal;
 		}
 	}
 
 	void checkUpgrade2(){
 		if (Player.fire1Upgrade) {
-			Sprite spr = GameObject.Find ("Upgrade2Image").GetComponent<Image>().sprite;
+			Sprite spr = GameObject.Find ("Upgrade2Image").GetComponent<Image> ().sprite;
 			rightImage.sprite = spr;
+		} else {
+			rightImage.sprite = rightSpriteOriginal;
 		}
 	}
 
 	void checkUpgrade3(){
 		if (Player.fire1Upgrade) {
-			Sprite spr = GameObject.Find ("UpgradeArmorImage").GetComponent<Image>().sprite;
+			Sprite spr = GameObject.Find ("UpgradeArmorImage").GetComponent<Image> ().sprite;
 			armorImage.sprite = spr;
+		} else {
+			armorImage.sprite = armorSpriteOriginal;
 		}
 	}
 		

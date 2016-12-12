@@ -6,10 +6,13 @@ public class EngineOver : MonoBehaviour {
     
     void Update()
     {
-        if (turnOff == 1)
-        {
-            Destroy(GetComponent<ParticleSystem>());
-        }
+		if (turnOff == 1) {
+			GetComponent<ParticleSystem> ().gameObject.SetActive (false);
+			//Destroy(GetComponent<ParticleSystem>());
+		} else if (turnOff == 0) {
+			GetComponent<ParticleSystem> ().gameObject.SetActive (true);
+
+		}
     }
 	
 }

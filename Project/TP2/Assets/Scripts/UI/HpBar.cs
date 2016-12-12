@@ -60,8 +60,8 @@ public class HpBar : MonoBehaviour {
 
 		}
 		hpImage.sprite = spr;
-
-
 	}
+
+	  
 
 }

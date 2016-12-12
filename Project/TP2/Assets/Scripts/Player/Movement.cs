@@ -25,6 +25,7 @@ public class Movement : MonoBehaviour {
 		Player.moveForwardSpeed = 7;
 		Player.temporaryAccelerationSpeed = 0;
         gameOver = 0;
+		EngineOver.turnOff = 0;
     }
 
     void Update()
