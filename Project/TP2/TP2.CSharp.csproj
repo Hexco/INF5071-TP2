@@ -102,6 +102,7 @@
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Player\Shoot.cs" />
     <Compile Include="Assets\Scripts\Scene\Tutorial\Platform_Manager.cs" />
+    <Compile Include="Assets\Scripts\UI\ChangeImageUpgrade.cs" />
     <Compile Include="Assets\Scripts\UI\GameOverToggleUI.cs" />
     <Compile Include="Assets\Scripts\UI\HpBar.cs" />
   </ItemGroup>
