@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class HpBar : MonoBehaviour {
 
-	public static float maxHP = 100f;
+	public static float maxHP = 4;
 	public static float currentHP;
 	static public GameObject hpObject;
 
@@ -18,7 +18,6 @@ public class HpBar : MonoBehaviour {
 		currentHP -= 1f;
 
 		if (currentHP < 0) {
-			Debug.Log ("Caca");
 			setHP (0);
 
 			Movement.gameOver = 1;
