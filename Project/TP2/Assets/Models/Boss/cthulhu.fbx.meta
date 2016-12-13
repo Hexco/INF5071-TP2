@@ -1,0 +1,1536 @@
+fileFormatVersion: 2
+guid: 09027a097addd224ea68c89228b66101
+timeCreated: 1481577783
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: backHead1
+    100004: backHead2
+    100006: backHead3
+    100008: backHead3_end
+    100010: Control
+    100012: //RootNode
+    100014: Head
+    100016: MouthBottom-0
+    100018: MouthBottom-1
+    100020: MouthBottom-1_end
+    100022: MouthTop-0
+    100024: MouthTop-1
+    100026: MouthTop-1_end
+    100028: PoleT1
+    100030: PoleT1_end
+    100032: PoleT2
+    100034: PoleT2_end
+    100036: PoleT3
+    100038: PoleT3_end
+    100040: PoleT4
+    100042: PoleT4_end
+    100044: PoleT5
+    100046: PoleT5_end
+    100048: PoleT6
+    100050: PoleT6_end
+    100052: PoleT7
+    100054: PoleT7_end
+    100056: Sphere
+    100058: T1-0
+    100060: T1-1
+    100062: T1-2
+    100064: T1-3
+    100066: T1-4
+    100068: T1-5
+    100070: T1-5_end
+    100072: T1-end
+    100074: T1-end_end
+    100076: T2-0
+    100078: T2-1
+    100080: T2-2
+    100082: T2-3
+    100084: T2-4
+    100086: T2-5
+    100088: T2-5_end
+    100090: T2-end
+    100092: T2-end_end
+    100094: T3-0
+    100096: T3-1
+    100098: T3-2
+    100100: T3-3
+    100102: T3-4
+    100104: T3-5
+    100106: T3-5_end
+    100108: T3-end
+    100110: T3-end_end
+    100112: T4-0
+    100114: T4-1
+    100116: T4-2
+    100118: T4-3
+    100120: T4-4
+    100122: T4-5
+    100124: T4-5_end
+    100126: T4-end
+    100128: T4-end_end
+    100130: T5-0
+    100132: T5-1
+    100134: T5-2
+    100136: T5-3
+    100138: T5-4
+    100140: T5-5
+    100142: T5-5_end
+    100144: T5-end
+    100146: T5-end_end
+    100148: T6-0
+    100150: T6-1
+    100152: T6-2
+    100154: T6-3
+    100156: T6-4
+    100158: T6-5
+    100160: T6-5_end
+    100162: T6-end
+    100164: T6-end_end
+    100166: T7-0
+    100168: T7-1
+    100170: T7-2
+    100172: T7-3
+    100174: T7-4
+    100176: T7-5
+    100178: T7-5_end
+    100180: T7-end
+    100182: T7-end_end
+    400000: Armature
+    400002: backHead1
+    400004: backHead2
+    400006: backHead3
+    400008: backHead3_end
+    400010: Control
+    400012: //RootNode
+    400014: Head
+    400016: MouthBottom-0
+    400018: MouthBottom-1
+    400020: MouthBottom-1_end
+    400022: MouthTop-0
+    400024: MouthTop-1
+    400026: MouthTop-1_end
+    400028: PoleT1
+    400030: PoleT1_end
+    400032: PoleT2
+    400034: PoleT2_end
+    400036: PoleT3
+    400038: PoleT3_end
+    400040: PoleT4
+    400042: PoleT4_end
+    400044: PoleT5
+    400046: PoleT5_end
+    400048: PoleT6
+    400050: PoleT6_end
+    400052: PoleT7
+    400054: PoleT7_end
+    400056: Sphere
+    400058: T1-0
+    400060: T1-1
+    400062: T1-2
+    400064: T1-3
+    400066: T1-4
+    400068: T1-5
+    400070: T1-5_end
+    400072: T1-end
+    400074: T1-end_end
+    400076: T2-0
+    400078: T2-1
+    400080: T2-2
+    400082: T2-3
+    400084: T2-4
+    400086: T2-5
+    400088: T2-5_end
+    400090: T2-end
+    400092: T2-end_end
+    400094: T3-0
+    400096: T3-1
+    400098: T3-2
+    400100: T3-3
+    400102: T3-4
+    400104: T3-5
+    400106: T3-5_end
+    400108: T3-end
+    400110: T3-end_end
+    400112: T4-0
+    400114: T4-1
+    400116: T4-2
+    400118: T4-3
+    400120: T4-4
+    400122: T4-5
+    400124: T4-5_end
+    400126: T4-end
+    400128: T4-end_end
+    400130: T5-0
+    400132: T5-1
+    400134: T5-2
+    400136: T5-3
+    400138: T5-4
+    400140: T5-5
+    400142: T5-5_end
+    400144: T5-end
+    400146: T5-end_end
+    400148: T6-0
+    400150: T6-1
+    400152: T6-2
+    400154: T6-3
+    400156: T6-4
+    400158: T6-5
+    400160: T6-5_end
+    400162: T6-end
+    400164: T6-end_end
+    400166: T7-0
+    400168: T7-1
+    400170: T7-2
+    400172: T7-3
+    400174: T7-4
+    400176: T7-5
+    400178: T7-5_end
+    400180: T7-end
+    400182: T7-end_end
+    4300000: Sphere
+    7400000: Out
+    7400002: Intro
+    7400004: AttackRight
+    7400006: AttackLeft
+    7400008: AttackTop
+    7400010: Bite
+    9500000: //RootNode
+    13700000: Sphere
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Out
+      takeName: Armature|ArmatureAction
+      firstFrame: 1499
+      lastFrame: 1500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Head
+        weight: 1
+      - path: Armature/Control/Head/backHead1
+        weight: 1
+      - path: Armature/Control/Head/backHead1/backHead2
+        weight: 1
+      - path: Armature/Control/Head/backHead1/backHead2/backHead3
+        weight: 1
+      - path: Armature/Control/Head/backHead1/backHead2/backHead3/backHead3_end
+        weight: 1
+      - path: Armature/Control/Head/MouthBottom-0
+        weight: 1
+      - path: Armature/Control/Head/MouthBottom-0/MouthBottom-1
+        weight: 1
+      - path: Armature/Control/Head/MouthBottom-0/MouthBottom-1/MouthBottom-1_end
+        weight: 1
+      - path: Armature/Control/Head/MouthTop-0
+        weight: 1
+      - path: Armature/Control/Head/MouthTop-0/MouthTop-1
+        weight: 1
+      - path: Armature/Control/Head/MouthTop-0/MouthTop-1/MouthTop-1_end
+        weight: 1
+      - path: Armature/Control/Head/T1-0
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3/T1-4
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3/T1-4/T1-5
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3/T1-4/T1-5/T1-5_end
+        weight: 1
+      - path: Armature/Control/Head/T2-0
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3/T2-4
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3/T2-4/T2-5
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3/T2-4/T2-5/T2-5_end
+        weight: 1
+      - path: Armature/Control/Head/T3-0
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3/T3-4
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3/T3-4/T3-5
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3/T3-4/T3-5/T3-5_end
+        weight: 1
+      - path: Armature/Control/Head/T4-0
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3/T4-4
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3/T4-4/T4-5
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3/T4-4/T4-5/T4-5_end
+        weight: 1
+      - path: Armature/Control/Head/T5-0
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3/T5-4
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3/T5-4/T5-5
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3/T5-4/T5-5/T5-5_end
+        weight: 1
+      - path: Armature/Control/Head/T6-0
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3/T6-4
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3/T6-4/T6-5
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3/T6-4/T6-5/T6-5_end
+        weight: 1
+      - path: Armature/Control/Head/T7-0
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3/T7-4
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3/T7-4/T7-5
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3/T7-4/T7-5/T7-5_end
+        weight: 1
+      - path: Armature/Control/PoleT1
+        weight: 1
+      - path: Armature/Control/PoleT1/PoleT1_end
+        weight: 1
+      - path: Armature/Control/PoleT2
+        weight: 1
+      - path: Armature/Control/PoleT2/PoleT2_end
+        weight: 1
+      - path: Armature/Control/PoleT3
+        weight: 1
+      - path: Armature/Control/PoleT3/PoleT3_end
+        weight: 1
+      - path: Armature/Control/PoleT4
+        weight: 1
+      - path: Armature/Control/PoleT4/PoleT4_end
+        weight: 1
+      - path: Armature/Control/PoleT5
+        weight: 1
+      - path: Armature/Control/PoleT5/PoleT5_end
+        weight: 1
+      - path: Armature/Control/PoleT6
+        weight: 1
+      - path: Armature/Control/PoleT6/PoleT6_end
+        weight: 1
+      - path: Armature/Control/PoleT7
+        weight: 1
+      - path: Armature/Control/PoleT7/PoleT7_end
+        weight: 1
+      - path: Armature/Control/T1-end
+        weight: 1
+      - path: Armature/Control/T1-end/T1-end_end
+        weight: 1
+      - path: Armature/Control/T2-end
+        weight: 1
+      - path: Armature/Control/T2-end/T2-end_end
+        weight: 1
+      - path: Armature/Control/T3-end
+        weight: 1
+      - path: Armature/Control/T3-end/T3-end_end
+        weight: 1
+      - path: Armature/Control/T4-end
+        weight: 1
+      - path: Armature/Control/T4-end/T4-end_end
+        weight: 1
+      - path: Armature/Control/T5-end
+        weight: 1
+      - path: Armature/Control/T5-end/T5-end_end
+        weight: 1
+      - path: Armature/Control/T6-end
+        weight: 1
+      - path: Armature/Control/T6-end/T6-end_end
+        weight: 1
+      - path: Armature/Control/T7-end
+        weight: 1
+      - path: Armature/Control/T7-end/T7-end_end
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Intro
+      takeName: Armature|ArmatureAction
+      firstFrame: 1050
+      lastFrame: 1410
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Head
+        weight: 1
+      - path: Armature/Control/Head/backHead1
+        weight: 1
+      - path: Armature/Control/Head/backHead1/backHead2
+        weight: 1
+      - path: Armature/Control/Head/backHead1/backHead2/backHead3
+        weight: 1
+      - path: Armature/Control/Head/backHead1/backHead2/backHead3/backHead3_end
+        weight: 1
+      - path: Armature/Control/Head/MouthBottom-0
+        weight: 1
+      - path: Armature/Control/Head/MouthBottom-0/MouthBottom-1
+        weight: 1
+      - path: Armature/Control/Head/MouthBottom-0/MouthBottom-1/MouthBottom-1_end
+        weight: 1
+      - path: Armature/Control/Head/MouthTop-0
+        weight: 1
+      - path: Armature/Control/Head/MouthTop-0/MouthTop-1
+        weight: 1
+      - path: Armature/Control/Head/MouthTop-0/MouthTop-1/MouthTop-1_end
+        weight: 1
+      - path: Armature/Control/Head/T1-0
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3/T1-4
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3/T1-4/T1-5
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3/T1-4/T1-5/T1-5_end
+        weight: 1
+      - path: Armature/Control/Head/T2-0
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3/T2-4
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3/T2-4/T2-5
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3/T2-4/T2-5/T2-5_end
+        weight: 1
+      - path: Armature/Control/Head/T3-0
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3/T3-4
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3/T3-4/T3-5
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3/T3-4/T3-5/T3-5_end
+        weight: 1
+      - path: Armature/Control/Head/T4-0
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3/T4-4
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3/T4-4/T4-5
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3/T4-4/T4-5/T4-5_end
+        weight: 1
+      - path: Armature/Control/Head/T5-0
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3/T5-4
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3/T5-4/T5-5
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3/T5-4/T5-5/T5-5_end
+        weight: 1
+      - path: Armature/Control/Head/T6-0
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3/T6-4
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3/T6-4/T6-5
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3/T6-4/T6-5/T6-5_end
+        weight: 1
+      - path: Armature/Control/Head/T7-0
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3/T7-4
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3/T7-4/T7-5
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3/T7-4/T7-5/T7-5_end
+        weight: 1
+      - path: Armature/Control/PoleT1
+        weight: 1
+      - path: Armature/Control/PoleT1/PoleT1_end
+        weight: 1
+      - path: Armature/Control/PoleT2
+        weight: 1
+      - path: Armature/Control/PoleT2/PoleT2_end
+        weight: 1
+      - path: Armature/Control/PoleT3
+        weight: 1
+      - path: Armature/Control/PoleT3/PoleT3_end
+        weight: 1
+      - path: Armature/Control/PoleT4
+        weight: 1
+      - path: Armature/Control/PoleT4/PoleT4_end
+        weight: 1
+      - path: Armature/Control/PoleT5
+        weight: 1
+      - path: Armature/Control/PoleT5/PoleT5_end
+        weight: 1
+      - path: Armature/Control/PoleT6
+        weight: 1
+      - path: Armature/Control/PoleT6/PoleT6_end
+        weight: 1
+      - path: Armature/Control/PoleT7
+        weight: 1
+      - path: Armature/Control/PoleT7/PoleT7_end
+        weight: 1
+      - path: Armature/Control/T1-end
+        weight: 1
+      - path: Armature/Control/T1-end/T1-end_end
+        weight: 1
+      - path: Armature/Control/T2-end
+        weight: 1
+      - path: Armature/Control/T2-end/T2-end_end
+        weight: 1
+      - path: Armature/Control/T3-end
+        weight: 1
+      - path: Armature/Control/T3-end/T3-end_end
+        weight: 1
+      - path: Armature/Control/T4-end
+        weight: 1
+      - path: Armature/Control/T4-end/T4-end_end
+        weight: 1
+      - path: Armature/Control/T5-end
+        weight: 1
+      - path: Armature/Control/T5-end/T5-end_end
+        weight: 1
+      - path: Armature/Control/T6-end
+        weight: 1
+      - path: Armature/Control/T6-end/T6-end_end
+        weight: 1
+      - path: Armature/Control/T7-end
+        weight: 1
+      - path: Armature/Control/T7-end/T7-end_end
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AttackRight
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Head
+        weight: 1
+      - path: Armature/Control/Head/backHead1
+        weight: 1
+      - path: Armature/Control/Head/backHead1/backHead2
+        weight: 1
+      - path: Armature/Control/Head/backHead1/backHead2/backHead3
+        weight: 1
+      - path: Armature/Control/Head/backHead1/backHead2/backHead3/backHead3_end
+        weight: 1
+      - path: Armature/Control/Head/MouthBottom-0
+        weight: 1
+      - path: Armature/Control/Head/MouthBottom-0/MouthBottom-1
+        weight: 1
+      - path: Armature/Control/Head/MouthBottom-0/MouthBottom-1/MouthBottom-1_end
+        weight: 1
+      - path: Armature/Control/Head/MouthTop-0
+        weight: 1
+      - path: Armature/Control/Head/MouthTop-0/MouthTop-1
+        weight: 1
+      - path: Armature/Control/Head/MouthTop-0/MouthTop-1/MouthTop-1_end
+        weight: 1
+      - path: Armature/Control/Head/T1-0
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3/T1-4
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3/T1-4/T1-5
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3/T1-4/T1-5/T1-5_end
+        weight: 1
+      - path: Armature/Control/Head/T2-0
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3/T2-4
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3/T2-4/T2-5
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3/T2-4/T2-5/T2-5_end
+        weight: 1
+      - path: Armature/Control/Head/T3-0
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3/T3-4
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3/T3-4/T3-5
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3/T3-4/T3-5/T3-5_end
+        weight: 1
+      - path: Armature/Control/Head/T4-0
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3/T4-4
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3/T4-4/T4-5
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3/T4-4/T4-5/T4-5_end
+        weight: 1
+      - path: Armature/Control/Head/T5-0
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3/T5-4
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3/T5-4/T5-5
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3/T5-4/T5-5/T5-5_end
+        weight: 1
+      - path: Armature/Control/Head/T6-0
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3/T6-4
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3/T6-4/T6-5
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3/T6-4/T6-5/T6-5_end
+        weight: 1
+      - path: Armature/Control/Head/T7-0
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3/T7-4
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3/T7-4/T7-5
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3/T7-4/T7-5/T7-5_end
+        weight: 1
+      - path: Armature/Control/PoleT1
+        weight: 1
+      - path: Armature/Control/PoleT1/PoleT1_end
+        weight: 1
+      - path: Armature/Control/PoleT2
+        weight: 1
+      - path: Armature/Control/PoleT2/PoleT2_end
+        weight: 1
+      - path: Armature/Control/PoleT3
+        weight: 1
+      - path: Armature/Control/PoleT3/PoleT3_end
+        weight: 1
+      - path: Armature/Control/PoleT4
+        weight: 1
+      - path: Armature/Control/PoleT4/PoleT4_end
+        weight: 1
+      - path: Armature/Control/PoleT5
+        weight: 1
+      - path: Armature/Control/PoleT5/PoleT5_end
+        weight: 1
+      - path: Armature/Control/PoleT6
+        weight: 1
+      - path: Armature/Control/PoleT6/PoleT6_end
+        weight: 1
+      - path: Armature/Control/PoleT7
+        weight: 1
+      - path: Armature/Control/PoleT7/PoleT7_end
+        weight: 1
+      - path: Armature/Control/T1-end
+        weight: 1
+      - path: Armature/Control/T1-end/T1-end_end
+        weight: 1
+      - path: Armature/Control/T2-end
+        weight: 1
+      - path: Armature/Control/T2-end/T2-end_end
+        weight: 1
+      - path: Armature/Control/T3-end
+        weight: 1
+      - path: Armature/Control/T3-end/T3-end_end
+        weight: 1
+      - path: Armature/Control/T4-end
+        weight: 1
+      - path: Armature/Control/T4-end/T4-end_end
+        weight: 1
+      - path: Armature/Control/T5-end
+        weight: 1
+      - path: Armature/Control/T5-end/T5-end_end
+        weight: 1
+      - path: Armature/Control/T6-end
+        weight: 1
+      - path: Armature/Control/T6-end/T6-end_end
+        weight: 1
+      - path: Armature/Control/T7-end
+        weight: 1
+      - path: Armature/Control/T7-end/T7-end_end
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AttackLeft
+      takeName: Armature|ArmatureAction
+      firstFrame: 250
+      lastFrame: 500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Head
+        weight: 1
+      - path: Armature/Control/Head/backHead1
+        weight: 1
+      - path: Armature/Control/Head/backHead1/backHead2
+        weight: 1
+      - path: Armature/Control/Head/backHead1/backHead2/backHead3
+        weight: 1
+      - path: Armature/Control/Head/backHead1/backHead2/backHead3/backHead3_end
+        weight: 1
+      - path: Armature/Control/Head/MouthBottom-0
+        weight: 1
+      - path: Armature/Control/Head/MouthBottom-0/MouthBottom-1
+        weight: 1
+      - path: Armature/Control/Head/MouthBottom-0/MouthBottom-1/MouthBottom-1_end
+        weight: 1
+      - path: Armature/Control/Head/MouthTop-0
+        weight: 1
+      - path: Armature/Control/Head/MouthTop-0/MouthTop-1
+        weight: 1
+      - path: Armature/Control/Head/MouthTop-0/MouthTop-1/MouthTop-1_end
+        weight: 1
+      - path: Armature/Control/Head/T1-0
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3/T1-4
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3/T1-4/T1-5
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3/T1-4/T1-5/T1-5_end
+        weight: 1
+      - path: Armature/Control/Head/T2-0
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3/T2-4
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3/T2-4/T2-5
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3/T2-4/T2-5/T2-5_end
+        weight: 1
+      - path: Armature/Control/Head/T3-0
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3/T3-4
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3/T3-4/T3-5
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3/T3-4/T3-5/T3-5_end
+        weight: 1
+      - path: Armature/Control/Head/T4-0
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3/T4-4
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3/T4-4/T4-5
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3/T4-4/T4-5/T4-5_end
+        weight: 1
+      - path: Armature/Control/Head/T5-0
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3/T5-4
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3/T5-4/T5-5
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3/T5-4/T5-5/T5-5_end
+        weight: 1
+      - path: Armature/Control/Head/T6-0
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3/T6-4
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3/T6-4/T6-5
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3/T6-4/T6-5/T6-5_end
+        weight: 1
+      - path: Armature/Control/Head/T7-0
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3/T7-4
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3/T7-4/T7-5
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3/T7-4/T7-5/T7-5_end
+        weight: 1
+      - path: Armature/Control/PoleT1
+        weight: 1
+      - path: Armature/Control/PoleT1/PoleT1_end
+        weight: 1
+      - path: Armature/Control/PoleT2
+        weight: 1
+      - path: Armature/Control/PoleT2/PoleT2_end
+        weight: 1
+      - path: Armature/Control/PoleT3
+        weight: 1
+      - path: Armature/Control/PoleT3/PoleT3_end
+        weight: 1
+      - path: Armature/Control/PoleT4
+        weight: 1
+      - path: Armature/Control/PoleT4/PoleT4_end
+        weight: 1
+      - path: Armature/Control/PoleT5
+        weight: 1
+      - path: Armature/Control/PoleT5/PoleT5_end
+        weight: 1
+      - path: Armature/Control/PoleT6
+        weight: 1
+      - path: Armature/Control/PoleT6/PoleT6_end
+        weight: 1
+      - path: Armature/Control/PoleT7
+        weight: 1
+      - path: Armature/Control/PoleT7/PoleT7_end
+        weight: 1
+      - path: Armature/Control/T1-end
+        weight: 1
+      - path: Armature/Control/T1-end/T1-end_end
+        weight: 1
+      - path: Armature/Control/T2-end
+        weight: 1
+      - path: Armature/Control/T2-end/T2-end_end
+        weight: 1
+      - path: Armature/Control/T3-end
+        weight: 1
+      - path: Armature/Control/T3-end/T3-end_end
+        weight: 1
+      - path: Armature/Control/T4-end
+        weight: 1
+      - path: Armature/Control/T4-end/T4-end_end
+        weight: 1
+      - path: Armature/Control/T5-end
+        weight: 1
+      - path: Armature/Control/T5-end/T5-end_end
+        weight: 1
+      - path: Armature/Control/T6-end
+        weight: 1
+      - path: Armature/Control/T6-end/T6-end_end
+        weight: 1
+      - path: Armature/Control/T7-end
+        weight: 1
+      - path: Armature/Control/T7-end/T7-end_end
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AttackTop
+      takeName: Armature|ArmatureAction
+      firstFrame: 500
+      lastFrame: 750
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Head
+        weight: 1
+      - path: Armature/Control/Head/backHead1
+        weight: 1
+      - path: Armature/Control/Head/backHead1/backHead2
+        weight: 1
+      - path: Armature/Control/Head/backHead1/backHead2/backHead3
+        weight: 1
+      - path: Armature/Control/Head/backHead1/backHead2/backHead3/backHead3_end
+        weight: 1
+      - path: Armature/Control/Head/MouthBottom-0
+        weight: 1
+      - path: Armature/Control/Head/MouthBottom-0/MouthBottom-1
+        weight: 1
+      - path: Armature/Control/Head/MouthBottom-0/MouthBottom-1/MouthBottom-1_end
+        weight: 1
+      - path: Armature/Control/Head/MouthTop-0
+        weight: 1
+      - path: Armature/Control/Head/MouthTop-0/MouthTop-1
+        weight: 1
+      - path: Armature/Control/Head/MouthTop-0/MouthTop-1/MouthTop-1_end
+        weight: 1
+      - path: Armature/Control/Head/T1-0
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3/T1-4
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3/T1-4/T1-5
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3/T1-4/T1-5/T1-5_end
+        weight: 1
+      - path: Armature/Control/Head/T2-0
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3/T2-4
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3/T2-4/T2-5
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3/T2-4/T2-5/T2-5_end
+        weight: 1
+      - path: Armature/Control/Head/T3-0
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3/T3-4
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3/T3-4/T3-5
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3/T3-4/T3-5/T3-5_end
+        weight: 1
+      - path: Armature/Control/Head/T4-0
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3/T4-4
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3/T4-4/T4-5
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3/T4-4/T4-5/T4-5_end
+        weight: 1
+      - path: Armature/Control/Head/T5-0
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3/T5-4
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3/T5-4/T5-5
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3/T5-4/T5-5/T5-5_end
+        weight: 1
+      - path: Armature/Control/Head/T6-0
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3/T6-4
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3/T6-4/T6-5
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3/T6-4/T6-5/T6-5_end
+        weight: 1
+      - path: Armature/Control/Head/T7-0
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3/T7-4
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3/T7-4/T7-5
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3/T7-4/T7-5/T7-5_end
+        weight: 1
+      - path: Armature/Control/PoleT1
+        weight: 1
+      - path: Armature/Control/PoleT1/PoleT1_end
+        weight: 1
+      - path: Armature/Control/PoleT2
+        weight: 1
+      - path: Armature/Control/PoleT2/PoleT2_end
+        weight: 1
+      - path: Armature/Control/PoleT3
+        weight: 1
+      - path: Armature/Control/PoleT3/PoleT3_end
+        weight: 1
+      - path: Armature/Control/PoleT4
+        weight: 1
+      - path: Armature/Control/PoleT4/PoleT4_end
+        weight: 1
+      - path: Armature/Control/PoleT5
+        weight: 1
+      - path: Armature/Control/PoleT5/PoleT5_end
+        weight: 1
+      - path: Armature/Control/PoleT6
+        weight: 1
+      - path: Armature/Control/PoleT6/PoleT6_end
+        weight: 1
+      - path: Armature/Control/PoleT7
+        weight: 1
+      - path: Armature/Control/PoleT7/PoleT7_end
+        weight: 1
+      - path: Armature/Control/T1-end
+        weight: 1
+      - path: Armature/Control/T1-end/T1-end_end
+        weight: 1
+      - path: Armature/Control/T2-end
+        weight: 1
+      - path: Armature/Control/T2-end/T2-end_end
+        weight: 1
+      - path: Armature/Control/T3-end
+        weight: 1
+      - path: Armature/Control/T3-end/T3-end_end
+        weight: 1
+      - path: Armature/Control/T4-end
+        weight: 1
+      - path: Armature/Control/T4-end/T4-end_end
+        weight: 1
+      - path: Armature/Control/T5-end
+        weight: 1
+      - path: Armature/Control/T5-end/T5-end_end
+        weight: 1
+      - path: Armature/Control/T6-end
+        weight: 1
+      - path: Armature/Control/T6-end/T6-end_end
+        weight: 1
+      - path: Armature/Control/T7-end
+        weight: 1
+      - path: Armature/Control/T7-end/T7-end_end
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bite
+      takeName: Armature|ArmatureAction
+      firstFrame: 750
+      lastFrame: 1000
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Head
+        weight: 1
+      - path: Armature/Control/Head/backHead1
+        weight: 1
+      - path: Armature/Control/Head/backHead1/backHead2
+        weight: 1
+      - path: Armature/Control/Head/backHead1/backHead2/backHead3
+        weight: 1
+      - path: Armature/Control/Head/backHead1/backHead2/backHead3/backHead3_end
+        weight: 1
+      - path: Armature/Control/Head/MouthBottom-0
+        weight: 1
+      - path: Armature/Control/Head/MouthBottom-0/MouthBottom-1
+        weight: 1
+      - path: Armature/Control/Head/MouthBottom-0/MouthBottom-1/MouthBottom-1_end
+        weight: 1
+      - path: Armature/Control/Head/MouthTop-0
+        weight: 1
+      - path: Armature/Control/Head/MouthTop-0/MouthTop-1
+        weight: 1
+      - path: Armature/Control/Head/MouthTop-0/MouthTop-1/MouthTop-1_end
+        weight: 1
+      - path: Armature/Control/Head/T1-0
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3/T1-4
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3/T1-4/T1-5
+        weight: 1
+      - path: Armature/Control/Head/T1-0/T1-1/T1-2/T1-3/T1-4/T1-5/T1-5_end
+        weight: 1
+      - path: Armature/Control/Head/T2-0
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3/T2-4
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3/T2-4/T2-5
+        weight: 1
+      - path: Armature/Control/Head/T2-0/T2-1/T2-2/T2-3/T2-4/T2-5/T2-5_end
+        weight: 1
+      - path: Armature/Control/Head/T3-0
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3/T3-4
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3/T3-4/T3-5
+        weight: 1
+      - path: Armature/Control/Head/T3-0/T3-1/T3-2/T3-3/T3-4/T3-5/T3-5_end
+        weight: 1
+      - path: Armature/Control/Head/T4-0
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3/T4-4
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3/T4-4/T4-5
+        weight: 1
+      - path: Armature/Control/Head/T4-0/T4-1/T4-2/T4-3/T4-4/T4-5/T4-5_end
+        weight: 1
+      - path: Armature/Control/Head/T5-0
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3/T5-4
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3/T5-4/T5-5
+        weight: 1
+      - path: Armature/Control/Head/T5-0/T5-1/T5-2/T5-3/T5-4/T5-5/T5-5_end
+        weight: 1
+      - path: Armature/Control/Head/T6-0
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3/T6-4
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3/T6-4/T6-5
+        weight: 1
+      - path: Armature/Control/Head/T6-0/T6-1/T6-2/T6-3/T6-4/T6-5/T6-5_end
+        weight: 1
+      - path: Armature/Control/Head/T7-0
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3/T7-4
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3/T7-4/T7-5
+        weight: 1
+      - path: Armature/Control/Head/T7-0/T7-1/T7-2/T7-3/T7-4/T7-5/T7-5_end
+        weight: 1
+      - path: Armature/Control/PoleT1
+        weight: 1
+      - path: Armature/Control/PoleT1/PoleT1_end
+        weight: 1
+      - path: Armature/Control/PoleT2
+        weight: 1
+      - path: Armature/Control/PoleT2/PoleT2_end
+        weight: 1
+      - path: Armature/Control/PoleT3
+        weight: 1
+      - path: Armature/Control/PoleT3/PoleT3_end
+        weight: 1
+      - path: Armature/Control/PoleT4
+        weight: 1
+      - path: Armature/Control/PoleT4/PoleT4_end
+        weight: 1
+      - path: Armature/Control/PoleT5
+        weight: 1
+      - path: Armature/Control/PoleT5/PoleT5_end
+        weight: 1
+      - path: Armature/Control/PoleT6
+        weight: 1
+      - path: Armature/Control/PoleT6/PoleT6_end
+        weight: 1
+      - path: Armature/Control/PoleT7
+        weight: 1
+      - path: Armature/Control/PoleT7/PoleT7_end
+        weight: 1
+      - path: Armature/Control/T1-end
+        weight: 1
+      - path: Armature/Control/T1-end/T1-end_end
+        weight: 1
+      - path: Armature/Control/T2-end
+        weight: 1
+      - path: Armature/Control/T2-end/T2-end_end
+        weight: 1
+      - path: Armature/Control/T3-end
+        weight: 1
+      - path: Armature/Control/T3-end/T3-end_end
+        weight: 1
+      - path: Armature/Control/T4-end
+        weight: 1
+      - path: Armature/Control/T4-end/T4-end_end
+        weight: 1
+      - path: Armature/Control/T5-end
+        weight: 1
+      - path: Armature/Control/T5-end/T5-end_end
+        weight: 1
+      - path: Armature/Control/T6-end
+        weight: 1
+      - path: Armature/Control/T6-end/T6-end_end
+        weight: 1
+      - path: Armature/Control/T7-end
+        weight: 1
+      - path: Armature/Control/T7-end/T7-end_end
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
