@@ -4,7 +4,6 @@ using System.Collections;
 public class FlashRed : MonoBehaviour {
 
 	public GameObject theObjectYouWannaFlashRed;
-	public Color colorOfObjectYouWannaFlashRed;
 
 
 	void Start(){

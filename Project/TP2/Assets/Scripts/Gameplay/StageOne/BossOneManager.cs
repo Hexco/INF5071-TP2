@@ -11,35 +11,19 @@ public class BossOneManager : MonoBehaviour {
 	public RuntimeAnimatorController part3;
 	public RuntimeAnimatorController part4;
 
-	public GameObject victoryMenu;
 
 
 
-
-	// Use this for initialization
-	void Start () {
-		victoryMenu.SetActive(false);
-	}
-		
 
 	void Awake(){
-		life = 80;
+		life = 23;
 	}
 	
 	void Update () {
 		animator = boss.GetComponent<Animator>();
 		checkPart ();
-		checkBossFinish ();
-
 	}
-
-	void checkBossFinish(){
-		if (life <= 0) {
-			Player.fire1Upgrade = true;
-			victoryMenu.SetActive(true);
-		}
 		
-	}
 
 	void checkPart(){
 		if (life > 60) {
@@ -48,8 +32,11 @@ public class BossOneManager : MonoBehaviour {
 			PartTwo ();
 		} else if (life > 20 && life <= 40) {
 			PartThree ();
-		} else if (life <= 20) {
+		} else if (life > 0 && life <= 20) {
 			PartFour ();
+		} else if (life <= 0) {
+			BossVictoryMenu.boss1Victory = true;
+			Destroy (boss);
 		}
 	}
 
