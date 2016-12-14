@@ -13,7 +13,7 @@ public class Player : MonoBehaviour {
 
 	public static bool fire1Upgrade = false;
 	public static bool fire2Upgrade = false;
-	public static bool bodyUpgrade = true;
+	public static bool bodyUpgrade = false;
 	public static bool jetUpgrade = false;
 
 	public static bool bodyUpgradeModifierDone = false;
@@ -29,7 +29,6 @@ public class Player : MonoBehaviour {
 		shield = GameObject.Find("AirshipShield");
 		shield.SetActive (false);
 		BodyUpgradeModifier ();
-		JetUpgradeModifier ();
 
 		print ("Current PlaneSpeed = " + planeSpeed);
 		print ("Upgrade1 = " + fire1Upgrade);
@@ -41,6 +40,10 @@ public class Player : MonoBehaviour {
 
 
 
+	}
+
+	void Update(){
+		JetUpgradeModifier ();
 	}
 		
 
@@ -56,7 +59,7 @@ public class Player : MonoBehaviour {
 	void JetUpgradeModifier(){
 		if (jetUpgrade && !jetUpgradeModifierDone) {
 			jetUpgradeModifierDone = true;
-			permanentManiabilitySpeed += 10;
+			permanentManiabilitySpeed = 10;
 		}
 	}
 }
