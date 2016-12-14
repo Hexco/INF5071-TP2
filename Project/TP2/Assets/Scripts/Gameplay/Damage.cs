@@ -10,7 +10,7 @@ public class Damage : MonoBehaviour {
     {
         if (other)
         {
-            if (other.tag == "Destroyable" || other.tag == "Boss")
+			if (this.gameObject != null && (other.tag == "Destroyable" || other.tag == "Boss" ))
             {
 				if (Player.fire1Upgrade) {
 					GameObject explosion = Instantiate (GameplayGeneral.missileExplosion, transform.position, transform.rotation) as GameObject;
@@ -34,7 +34,7 @@ public class Damage : MonoBehaviour {
 						HitSound();
 					} else {
 						other.GetComponent<Renderer> ().material.color = Color.red;
-						yield return new WaitForSeconds (0.2f);
+						yield return new WaitForEndOfFrame ();
 						other.GetComponent<Renderer> ().material.color = Color.white;
 						HitSound();
 					}

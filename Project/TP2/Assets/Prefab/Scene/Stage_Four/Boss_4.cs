@@ -75,7 +75,7 @@ public class Boss_4 : MonoBehaviour {
             if (Huge_weapon_shot != null)
             {
                 Huge_weapon_shot.transform.LookAt(weapon_target.position);
-                Huge_weapon_shot.transform.Translate(Vector3.forward * 5);
+                Huge_weapon_shot.transform.Translate(Vector3.forward * 0.50f);
             }
 
             if (Laser_Cool)
