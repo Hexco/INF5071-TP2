@@ -30,13 +30,17 @@ public class Damage : MonoBehaviour {
 						thisOneGonnaFlashRed = other.GetComponent<IWannaFlash> ().iWannaFlashObject;
 						thisOneGonnaFlashRed.GetComponent<Renderer> ().material.color = Color.red;
 						yield return new WaitForSeconds (0.2f);
-						thisOneGonnaFlashRed.GetComponent<Renderer> ().material.color = Color.white;
-						HitSound();
+						if (other) {
+							thisOneGonnaFlashRed.GetComponent<Renderer> ().material.color = Color.white;
+							HitSound ();
+						}
 					} else {
 						other.GetComponent<Renderer> ().material.color = Color.red;
 						yield return new WaitForEndOfFrame ();
-						other.GetComponent<Renderer> ().material.color = Color.white;
-						HitSound();
+						if (other) {
+							other.GetComponent<Renderer> ().material.color = Color.white;
+							HitSound ();
+						}
 					}
 
 
