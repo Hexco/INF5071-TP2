@@ -54,6 +54,7 @@ public class Boss_4 : MonoBehaviour {
             else
             {
 				BossVictoryMenu.boss4Victory = true;
+				Save.stageFourDone = true;
                 Destroy(boss);
             }
         }

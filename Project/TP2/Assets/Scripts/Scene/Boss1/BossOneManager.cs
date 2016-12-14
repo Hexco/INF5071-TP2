@@ -16,7 +16,7 @@ public class BossOneManager : MonoBehaviour {
 
 
 	void Awake(){
-		life = 23;
+		life = 80;
 	}
 	
 	void Update () {
@@ -36,6 +36,7 @@ public class BossOneManager : MonoBehaviour {
 			PartFour ();
 		} else if (life <= 0) {
 			BossVictoryMenu.boss1Victory = true;
+			Save.stageOneDone = true;
 			Destroy (boss);
 		}
 	}

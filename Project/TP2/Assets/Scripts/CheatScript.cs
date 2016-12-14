@@ -7,7 +7,10 @@ public class CheatScript : MonoBehaviour {
 	void Start () {
 		Player.planeSpeed += 15;
 		Player.moveForwardSpeed += 25;
-		//HpBar.currentHP = 30;
+		Player.fire1Upgrade = true;
+		Player.fire2Upgrade = true;
+		Player.bodyUpgrade = true;
+		Player.jetUpgrade = true;	
 	}
 	
 

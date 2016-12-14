@@ -21,8 +21,11 @@ public class Movement : MonoBehaviour {
 
     void Awake()
     {
-		Player.planeSpeed = 5;
-		Player.moveForwardSpeed = 7;
+		GameObject playerInfo = GameObject.Find ("_GameplayScriptSystem");
+
+		Player.moveForwardSpeed = playerInfo.GetComponent<Player> ().forwardSpeed;;
+		Player.planeSpeed = 9;
+		Player.planeSpeed += Player.permanentManiabilitySpeed;
 		Player.temporaryAccelerationSpeed = 0;
         gameOver = 0;
 		EngineOver.turnOff = 0;

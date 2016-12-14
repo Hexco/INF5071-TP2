@@ -44,7 +44,7 @@ public class ChangeImageUpgrade : MonoBehaviour {
 	}
 
 	void checkUpgrade2(){
-		if (Player.fire1Upgrade) {
+		if (Player.fire2Upgrade) {
 			Sprite spr = GameObject.Find ("Upgrade2Image").GetComponent<Image> ().sprite;
 			rightImage.sprite = spr;
 		} else {
@@ -53,9 +53,21 @@ public class ChangeImageUpgrade : MonoBehaviour {
 	}
 
 	void checkUpgrade3(){
-		if (Player.fire1Upgrade) {
+		if (Player.bodyUpgrade) {
 			Sprite spr = GameObject.Find ("UpgradeArmorImage").GetComponent<Image> ().sprite;
 			armorImage.sprite = spr;
+			if (Player.jetUpgrade) {
+				spr = GameObject.Find ("UpgradeSpeedArmorImage").GetComponent<Image> ().sprite;
+				armorImage.sprite = spr;
+			}
+		} else if (Player.jetUpgrade) {
+			Sprite spr = GameObject.Find ("UpgradeSpeedImage").GetComponent<Image> ().sprite;
+			armorImage.sprite = spr;
+			if (Player.bodyUpgrade) {
+				spr = GameObject.Find ("UpgradeSpeedArmorImage").GetComponent<Image> ().sprite;
+				armorImage.sprite = spr;
+			}
+
 		} else {
 			armorImage.sprite = armorSpriteOriginal;
 		}

@@ -15,7 +15,8 @@ public class BossVictoryMenu : MonoBehaviour {
 	 
 
 	void Start () {
-		victoryMenu.SetActive(false);
+		
+
 	}
 
 
@@ -24,19 +25,23 @@ public class BossVictoryMenu : MonoBehaviour {
 
 	}
 
+	void Awake(){
+		victoryMenu.SetActive(false);
+		boss1Victory = false;
+		boss2Victory = false;
+		boss3Victory = false;
+		boss4Victory = false;
+	}
+
 
 	void checkBossFinish(){
 		if (boss1Victory) {
-			whichUpgrade (1);
 			victoryMenu.SetActive(true);
 		}else if (boss2Victory) {
-			whichUpgrade (2);
 			victoryMenu.SetActive(true);
 		} else if (boss3Victory) {
-			whichUpgrade (3);
 			victoryMenu.SetActive(true);
 		} else if (boss4Victory) {
-			whichUpgrade (4);
 			victoryMenu.SetActive(true);
 		}
 
@@ -45,17 +50,7 @@ public class BossVictoryMenu : MonoBehaviour {
 
 	}
 
-	void whichUpgrade(int upgrade){
-		if (upgrade == 1) {
-			Player.fire1Upgrade = true;
-		} else if (upgrade == 2) {
 
-		} else if (upgrade == 3) {
-
-		} else if (upgrade == 4) {
-			Player.fire2Upgrade = true;
-		}
-	}
 
 
 }

@@ -13,19 +13,12 @@ public class HpBar : MonoBehaviour {
 	public static Image hpImage;
 	public static Sprite[] sprites;
 
-	Image myImageComponent;
-	public Sprite myFirstImage; //Drag your first sprite here in inspector.
-	public Sprite mySecondImage; //Drag your second sprite here in inspector.
-
 
 	void Start() {
 		currentHP = maxHP;
 		GameObject hpBar = GameObject.Find ("HpBar");
 		hpImage = hpBar.GetComponent<Image> ();
 
-
-		myImageComponent = GetComponent<Image>(); //Our image component is the one attached to this gameObject.
-		//Sprite[] sprites = Resources.LoadAll<Sprite> ("hp");
 	}
 
 	static public void decreaseHealth(){
@@ -46,7 +39,10 @@ public class HpBar : MonoBehaviour {
 
 	static public void setHP(float hp){
 		Sprite spr = null;
-		if (hp == 3){
+		if (hp == 4 && Player.bodyUpgrade){
+			spr = GameObject.Find ("hp4").GetComponent<Image>().sprite;
+			Player.shield.SetActive (false);
+		} else if (hp == 3){
 			spr = GameObject.Find ("hp3").GetComponent<Image>().sprite;
 
 		}else if (hp == 2){

@@ -1,11 +1,13 @@
 fileFormatVersion: 2
-guid: 132bb63d70ece8d49b0f89ea0901482a
-timeCreated: 1481314545
+guid: 09600cee3b5de1647884e9ecfe428837
+timeCreated: 1481592743
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Armor_0
-    21300002: Armor_1
+    21300000: Armor (2)_0
+    21300002: Armor (2)_1
+    21300004: Armor (2)_2
+    21300006: Armor (2)_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -55,7 +57,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Armor_0
+      name: Armor (2)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -63,12 +65,25 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Armor_1
+      name: Armor (2)_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Armor (2)_2
       rect:
         serializedVersion: 2
         x: 0
@@ -76,7 +91,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Armor (2)_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

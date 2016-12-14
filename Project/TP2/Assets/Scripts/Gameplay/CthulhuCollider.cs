@@ -23,4 +23,5 @@ public class CthulhuCollider : MonoBehaviour {
 			anim.SetBool ("playerIn", false);
 		}
 	}
+		
 }
