@@ -8,7 +8,7 @@
 * PERK04088601 - Kevin Perrault
 * PAPN20098909 - Nicolas Papanicolaou
 * BILFXXXXXXXX - Francis Bilodeau Robillard
-* STCKXXXXXXXX - Karl St-Cyr
+* STCK16118902 - Karl St-Cyr
 
 ## Controle du jeu
 
